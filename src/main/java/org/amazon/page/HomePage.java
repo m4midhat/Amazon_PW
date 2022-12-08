@@ -49,19 +49,14 @@ public class HomePage {
         logger.info("Clicked on TV, Appliances, Electronics");
     }
 
-    public List<String> clickSubMenuOptionTelevision(){
+    public TVCategoryPage clickSubMenuOptionTelevision(){
         logger.info("In function , clickSubMenuOptionTelevision()");
         page.waitForTimeout(HomePageConstants.timeOut);
         logger.info("Waiting done. Clicking submenu tv link ");
         page.locator(HomeLocators.submenuTV).nth(3).click();
         logger.info("Clicking submenu tv link done");
-        List<String> UrlAndTitle = new ArrayList<>();
-        page.waitForLoadState(LoadState.DOMCONTENTLOADED);
-        logger.info(page.url());
-        logger.info(page.title());
-        UrlAndTitle.add(0,page.url());
-        UrlAndTitle.add(1, page.title());
-        return UrlAndTitle;
+
+        return new TVCategoryPage(page);
     }
 
 }

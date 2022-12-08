@@ -80,9 +80,12 @@ public class HomeTest extends BaseTest {
 
         homePage.clickHamburgerMenuIcon();
         homePage.navigateToTVAppliances();
+        /*
         List<String> returnValues = homePage.clickSubMenuOptionTelevision();
         Assert.assertEquals(returnValues.get(0), HomePageConstants.returnURLOfSelectingTV);
         Assert.assertEquals(returnValues.get(1), HomePageConstants.pgTitleTVSelection);
+        */
+
     }
 
 }

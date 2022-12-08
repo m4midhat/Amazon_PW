@@ -4,9 +4,10 @@
     <listeners>
         <listener class-name="org.amazon.listener.ExtentReportListener"></listener>
     </listeners>
-    <test verbose="0" preserve-order="true" name="Amazon India">
+    <test verbose="0" preserve-order="true" name="Amazon India" >
         <classes>
                 <class name="org.amazon.test.HomeTest" />
+                <class name="org.amazon.test.TVCategoryTest"></class>
         </classes>
     </test>
 </suite>
