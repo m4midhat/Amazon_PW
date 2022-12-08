@@ -57,6 +57,10 @@ public class PlaywrightFactory {
                 //browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setChannel("chrome").setHeadless(false));
                 browserThreadLocal.set(getPlaywright().chromium().launch(new BrowserType.LaunchOptions().setChannel("chrome").setHeadless(false)));
                 break;
+            case "msedge":
+                //browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setChannel("chrome").setHeadless(false));
+                browserThreadLocal.set(getPlaywright().chromium().launch(new BrowserType.LaunchOptions().setChannel("msedge").setHeadless(false)));
+                break;
 
             default:
                 System.out.println("Invalid browser name !!!");
@@ -93,6 +97,7 @@ public class PlaywrightFactory {
     }
 
     public void closePlaywright(){
+
         getPlaywright().close();
     }
 }
