@@ -11,13 +11,13 @@ public class HomeTest extends BaseTest {
 
     @Test (description = "Verification of page URL", priority = 0)
     public void verifyURL(){
-        String originalURL = homePage.getPageURL();
+        String originalURL = getCurrentURL();
         Assert.assertEquals(originalURL, HomePageConstants.url);
     }
 
     @Test (description = "Verification of page title", priority = 1)
     public void verifyTitle(){
-        String originalTitle = homePage.getPageTitle();
+        String originalTitle = getCurrentTitle();
         Assert.assertEquals(originalTitle, HomePageConstants.homePageTitle);
     }
 

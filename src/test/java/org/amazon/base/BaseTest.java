@@ -26,6 +26,13 @@ public class BaseTest {
         homePage = new HomePage(page);
     }
 
+    protected String getCurrentURL(){
+        return page.url();
+    }
+
+    protected String getCurrentTitle(){
+        return page.title();
+    }
 
     @AfterClass
     public void tearDown(){
