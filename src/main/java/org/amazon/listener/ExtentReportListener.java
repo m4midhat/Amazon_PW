@@ -41,12 +41,12 @@ public class ExtentReportListener  implements ITestListener {
 
         extentReports = new ExtentReports();
         ExtentSparkReporter reporter = new ExtentSparkReporter(OUTPUT_FOLDER + FILE_NAME);
-        reporter.config().setReportName("RefleCX Automation Test Results");
+        reporter.config().setReportName("Amazon.in");
         extentReports.attachReporter(reporter);
         extentReports.setSystemInfo("System", "Windows");
         extentReports.setSystemInfo("Author", "Midhat Rosull Chughtai");
         extentReports.setSystemInfo("Build#", "1.0");
-        extentReports.setSystemInfo("Team", "RefleCX");
+        extentReports.setSystemInfo("Team", "SDET Automation");
 
         //extentReports.setSystemInfo("ENV NAME", System.getProperty("env"));
 
