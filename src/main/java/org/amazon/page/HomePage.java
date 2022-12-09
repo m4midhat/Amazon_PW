@@ -54,8 +54,7 @@ public class HomePage {
         page.waitForTimeout(HomePageConstants.timeOut);
         logger.info("Waiting done. Clicking submenu tv link ");
         page.locator(HomeLocators.submenuTV).nth(3).click();
-        logger.info("Clicking submenu tv link done");
-
+        logger.info("Clicking submenu tv link done, system will now navigate to new page");
         return new TVCategoryPage(page);
     }
 

@@ -3,9 +3,11 @@ package org.amazon.page;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.options.LoadState;
 import org.amazon.constants.TVCategoryLocators;
+import org.testng.log4testng.Logger;
 
 public class TVCategoryPage {
     private Page page;
+    private final Logger logger = Logger.getLogger(TVCategoryPage.class);
 
     public TVCategoryPage(Page page){
         this.page=page;
@@ -22,6 +24,7 @@ public class TVCategoryPage {
     }
 
     public int getSubOptionsTV(){
+        logger.info("Getting Sub options for TV");
         return  page.locator(TVCategoryLocators.subCategoryTVBar).count();
     }
 
@@ -98,6 +101,7 @@ public class TVCategoryPage {
         return page.isVisible(TVCategoryLocators.brandMI);
     }
     public boolean isBrandSamsungVisible(){
+        logger.info("Checking if brand Samsung is visible");
         return page.isVisible(TVCategoryLocators.brandSamsung);
     }
     public boolean isBrandLGVisible(){
@@ -117,7 +121,9 @@ public class TVCategoryPage {
     }
     public void clickBrandSamsung(){
         page.locator(TVCategoryLocators.brandSamsung).scrollIntoViewIfNeeded();
+        logger.info("Scrolling and clicking to Samsung option");
         page.locator(TVCategoryLocators.brandSamsung).click();
+        page.waitForLoadState(LoadState.DOMCONTENTLOADED);
     }
     public void clickBrandLG(){
         page.locator(TVCategoryLocators.brandLG).scrollIntoViewIfNeeded();
@@ -145,6 +151,7 @@ public class TVCategoryPage {
         page.waitForLoadState(LoadState.DOMCONTENTLOADED);
         page.waitForLoadState(LoadState.NETWORKIDLE);
         page.waitForTimeout(500);
+        logger.info("Selecting the option Samsung, system will now navigate to new page");
         return new BrandResultsPage(page);
     }
 }
