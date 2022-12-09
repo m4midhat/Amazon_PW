@@ -91,4 +91,60 @@ public class TVCategoryPage {
     public boolean isPlatformHomeOSVisible(){
         return page.isVisible(TVCategoryLocators.platformHomeOS);
     }
+    public boolean isBrandsHeadingVisible(){
+        return page.isVisible(TVCategoryLocators.brandsHeading);
+    }
+    public boolean isBrandMIVisible(){
+        return page.isVisible(TVCategoryLocators.brandMI);
+    }
+    public boolean isBrandSamsungVisible(){
+        return page.isVisible(TVCategoryLocators.brandSamsung);
+    }
+    public boolean isBrandLGVisible(){
+        return page.isVisible(TVCategoryLocators.brandLG);
+    }
+    public boolean isBrandOnePlusVisible(){
+        return page.isVisible(TVCategoryLocators.brandOnePlus);
+    }
+    public boolean isBrandCromaVisibele(){
+        return page.isVisible(TVCategoryLocators.brandCroma);
+    }
+    public boolean isBrandTCLVisible(){
+        return page.isVisible(TVCategoryLocators.brandTCL);
+    }
+    public boolean isBrandHisenceVisible(){
+        return page.isVisible(TVCategoryLocators.brandHisence);
+    }
+    public void clickBrandSamsung(){
+        page.locator(TVCategoryLocators.brandSamsung).scrollIntoViewIfNeeded();
+        page.locator(TVCategoryLocators.brandSamsung).click();
+    }
+    public void clickBrandLG(){
+        page.locator(TVCategoryLocators.brandLG).scrollIntoViewIfNeeded();
+        page.locator(TVCategoryLocators.brandLG).click();
+    }
+    public void clickBrandOnePlus(){
+        page.locator(TVCategoryLocators.brandOnePlus).scrollIntoViewIfNeeded();
+        page.locator(TVCategoryLocators.brandOnePlus).click();
+    }
+    public void clickBrandCroma(){
+        page.locator(TVCategoryLocators.brandCroma).scrollIntoViewIfNeeded();
+        page.locator(TVCategoryLocators.brandCroma).click();
+    }
+    public void clickBrandTCL(){
+        page.locator(TVCategoryLocators.brandTCL).scrollIntoViewIfNeeded();
+        page.locator(TVCategoryLocators.brandTCL).click();
+    }
+    public void clickBrandHisence(){
+        page.locator(TVCategoryLocators.brandHisence).scrollIntoViewIfNeeded();
+        page.locator(TVCategoryLocators.brandHisence).click();
+    }
+
+    public BrandResultsPage selectBrandSamsung(){
+        clickBrandSamsung();
+        page.waitForLoadState(LoadState.DOMCONTENTLOADED);
+        page.waitForLoadState(LoadState.NETWORKIDLE);
+        page.waitForTimeout(500);
+        return new BrandResultsPage(page);
+    }
 }

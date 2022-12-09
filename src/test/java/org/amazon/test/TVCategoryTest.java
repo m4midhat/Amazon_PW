@@ -2,15 +2,13 @@ package org.amazon.test;
 
 import org.amazon.base.BaseTest;
 import org.amazon.constants.TVCategoryConstants;
-import org.amazon.constants.TVCategoryLocators;
-import org.amazon.page.TVCategoryPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TVCategoryTest extends BaseTest {
 
 
-    @Test (description = "TV Category URL verification", priority = 0)
+    @Test (description = "TV Category URL verification")
     public void verifyTVCategoryURL() {
         tvCategoryPage = homePage.clickSubMenuOptionTelevision();
         Assert.assertEquals(tvCategoryPage.getTVCategoryPageURL(), TVCategoryConstants.returnURLOfSelectingTV);
@@ -139,7 +137,18 @@ public class TVCategoryTest extends BaseTest {
     public void verifyAvailabilityCheck_PlatformWebOS(){
         Assert.assertTrue(tvCategoryPage.isPlatformWebOSVisible());
     }
-
+    @Test (description = "Availability of brand heading", priority = 27)
+    public void verifyAvailabilityCheckBrandHeading(){
+        Assert.assertTrue(tvCategoryPage.isBrandHisenceVisible());
+    }
+    @Test (description = "Availability of brand MI", priority = 28)
+    public void verifyAvailabilityCheckBrandMI(){
+        Assert.assertTrue(tvCategoryPage.isBrandMIVisible());
+    }
+    @Test (description = "Availability of brand Samsung", priority = 29)
+    public void verifyAvailabilityCheckBrandSamsung(){
+        Assert.assertTrue(tvCategoryPage.isBrandSamsungVisible());
+    }
 
 
 }

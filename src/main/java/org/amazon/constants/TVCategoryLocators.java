@@ -24,6 +24,13 @@ public class TVCategoryLocators {
     public static String platformHomeOS = "//span[contains(text(),'HomeOS')]";
     public static String platformTizen = "//span[contains(text(),'Tizen')]";
     public static String platformWebOS = "//span[contains(text(),'WebOS')]";
-
+    public static String brandsHeading = "//span[normalize-space()='Brands']";
+    public static String brandMI = "//span[@class='a-size-base a-color-base'][normalize-space()='MI']";
+    public static String brandLG = "//span[@class='a-size-base a-color-base'][normalize-space()='LG']";
+    public static String brandSamsung = "//span[@class='a-size-base a-color-base'][normalize-space()='Samsung']";
+    public static String brandOnePlus = "//span[@class='a-size-base a-color-base'][normalize-space()='OnePlus']";
+    public static String brandCroma = "//span[@class='a-size-base a-color-base'][normalize-space()='CROMA']";
+    public static String brandTCL = "//span[@class='a-size-base a-color-base'][normalize-space()='TCL']";
+    public static String brandHisence = "//span[@class='a-size-base a-color-base'][normalize-space()='Hisense']";
 
 }

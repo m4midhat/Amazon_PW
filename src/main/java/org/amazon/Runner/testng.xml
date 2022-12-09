@@ -8,6 +8,7 @@
         <classes>
                 <class name="org.amazon.test.HomeTest" />
                 <class name="org.amazon.test.TVCategoryTest"></class>
+                <class name="org.amazon.test.BrandResultTest"></class>
         </classes>
     </test>
 </suite>

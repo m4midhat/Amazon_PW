@@ -3,10 +3,9 @@ package org.amazon.base;
 import com.microsoft.playwright.Page;
 import org.amazon.factory.PlaywrightFactory;
 import org.amazon.page.HomePage;
+import org.amazon.page.BrandResultsPage;
 import org.amazon.page.TVCategoryPage;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.log4testng.Logger;
 
@@ -20,6 +19,7 @@ public class BaseTest {
     protected Properties properties;
     protected static HomePage homePage;
     protected static TVCategoryPage tvCategoryPage;
+    protected static BrandResultsPage brandResultsPage;
 
     @BeforeSuite
     public void setUp() throws IOException {
