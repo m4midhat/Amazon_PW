@@ -137,15 +137,11 @@ public class TVCategoryTest extends BaseTest {
     public void verifyAvailabilityCheck_PlatformWebOS(){
         Assert.assertTrue(tvCategoryPage.isPlatformWebOSVisible());
     }
-    @Test (description = "Availability of brand heading", priority = 27)
-    public void verifyAvailabilityCheckBrandHeading(){
-        Assert.assertTrue(tvCategoryPage.isBrandHisenceVisible());
-    }
-    @Test (description = "Availability of brand MI", priority = 28)
+    @Test (description = "Availability of brand MI", priority = 27)
     public void verifyAvailabilityCheckBrandMI(){
         Assert.assertTrue(tvCategoryPage.isBrandMIVisible());
     }
-    @Test (description = "Availability of brand Samsung", priority = 29)
+    @Test (description = "Availability of brand Samsung", priority = 28)
     public void verifyAvailabilityCheckBrandSamsung(){
         Assert.assertTrue(tvCategoryPage.isBrandSamsungVisible());
     }

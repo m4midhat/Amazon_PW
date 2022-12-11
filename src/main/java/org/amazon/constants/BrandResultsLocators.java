@@ -1,14 +1,70 @@
 package org.amazon.constants;
 
+import org.testng.log4testng.Logger;
+
 public class BrandResultsLocators {
-    public static String samsungOption = "//li[@id='p_89/Samsung']//input[@type='checkbox']";
-    public static String resultsHeader = "span.a-size-medium-plus.a-color-base.a-text-normal";
-    public static String filteredResultsText = "span[class='a-size-base-plus a-color-base a-text-normal']";
-    public static String sortDropDown = "#a-autoid-0-announce";
-    public static String sortByFeatured = "//a[@id='s-result-sort-select_0']";
-    public static String sortByPriceLowToHigh = "//a[@id='s-result-sort-select_1']";
-    public static String sortByPriceHighToLow = "//a[@id='s-result-sort-select_2']";
-    public static String sortByReviews = "//a[@id='s-result-sort-select_3']";
-    public static String sortByNewArrivals = "//a[@id='s-result-sort-select_4']";
-    public static String prices = "span.a-price-whole";
+    private Logger logger = Logger.getLogger(BrandResultsLocators.class);
+    private String samsungOption = "//li[@id='p_89/Samsung']//input[@type='checkbox']";
+    private String resultsHeader = "span.a-size-medium-plus.a-color-base.a-text-normal";
+    private String filteredResultsText = "span[class='a-size-base-plus a-color-base a-text-normal']";
+    private String sortDropDown = "#a-autoid-0-announce";
+    private String sortByFeatured = "//a[@id='s-result-sort-select_0']";
+    private String sortByPriceLowToHigh = "//a[@id='s-result-sort-select_1']";
+    private String sortByPriceHighToLow = "//a[@id='s-result-sort-select_2']";
+    private String sortByReviews = "//a[@id='s-result-sort-select_3']";
+    private String sortByNewArrivals = "//a[@id='s-result-sort-select_4']";
+    private String prices = "span.a-price-whole";
+
+    public void logInfo(String elementSelector){
+        logger.info("Accessing the elementSelector via locator : " + elementSelector);
+    }
+    public String getSamsungOption() {
+        logInfo(samsungOption);
+        return samsungOption;
+    }
+
+    public String getResultsHeader() {
+        logInfo(resultsHeader);
+        return resultsHeader;
+    }
+
+    public String getFilteredResultsText() {
+        logInfo(filteredResultsText);
+        return filteredResultsText;
+    }
+
+    public String getSortDropDown() {
+        logInfo(sortDropDown);
+        return sortDropDown;
+    }
+
+    public String getSortByFeatured() {
+        logInfo(sortByFeatured);
+        return sortByFeatured;
+    }
+
+    public String getSortByPriceLowToHigh() {
+        logInfo(sortByPriceLowToHigh);
+        return sortByPriceLowToHigh;
+    }
+
+    public String getSortByPriceHighToLow() {
+        logInfo(sortByPriceHighToLow);
+        return sortByPriceHighToLow;
+    }
+
+    public String getSortByReviews() {
+        logInfo(sortByReviews);
+        return sortByReviews;
+    }
+
+    public String getSortByNewArrivals() {
+        logInfo(sortByNewArrivals);
+        return sortByNewArrivals;
+    }
+
+    public String getPrices() {
+        logInfo(prices);
+        return prices;
+    }
 }

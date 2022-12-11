@@ -2,6 +2,7 @@ package org.amazon.factory;
 
 
 import com.microsoft.playwright.*;
+import org.amazon.constants.TimeOuts;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -68,11 +69,13 @@ public class PlaywrightFactory {
         }
 
         browserContextThreadLocal.set(getBrowser().newContext());
-        getBrowserContext().setDefaultTimeout(90000);
+        getBrowserContext().setDefaultTimeout(TimeOuts.applicationTimeOut);
 
 //        page = browserContext.newPage();
         pageThreadLocal.set(browserContextThreadLocal.get().newPage());
-        getPage().navigate(properties.getProperty("url"));
+        String url = properties.getProperty("url");
+        System.out.println("Navigating to : " + url);
+        getPage().navigate(url);
         return getPage();
 
     }

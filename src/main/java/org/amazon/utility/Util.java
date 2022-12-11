@@ -11,7 +11,7 @@ public class Util {
     public static boolean isSorted(List<Integer> array) {
         for (int i = 0; i < array.size() - 1; i++) {
             if (array.get(i) < array.get(i + 1)) {
-                System.out.println("Failure upon comparing : " + array.get(i)+" & "+ array.get(i+1));
+                System.out.println("Failure upon comparing sorting; high value(" + array.get(i)+") & low value("+ array.get(i+1)+")");
                 return false;
             }
         }

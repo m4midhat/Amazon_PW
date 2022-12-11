@@ -15,6 +15,7 @@ public class BrandResultsPage {
         this.page = page;
     }
     public static Logger logger = Logger.getLogger(BrandResultsPage.class);
+    private BrandResultsLocators brandResultsLocators = new BrandResultsLocators();
 
     public String getSamsungResultsURL(){
         return page.url();
@@ -22,16 +23,16 @@ public class BrandResultsPage {
 
     public boolean isSamsungOptionChecked(){
         logger.info("If Samsung checkbox is checked");
-        return page.isChecked(BrandResultsLocators.samsungOption);
+        return page.isChecked(brandResultsLocators.getSamsungOption());
     }
     public boolean isResultsHeaderAvailable(){
         logger.info("Is result header available");
-        return page.isVisible(BrandResultsLocators.resultsHeader);
+        return page.isVisible(brandResultsLocators.getResultsHeader());
     }
     public List<String> getFilteredResultsText(){
         List<String> filteredResults = new ArrayList<>();
-        for(int i=0;i<page.locator(BrandResultsLocators.filteredResultsText).count();i++){
-            String text = page.locator(BrandResultsLocators.filteredResultsText).nth(i).innerText().trim();
+        for(int i=0;i<page.locator(brandResultsLocators.getFilteredResultsText()).count();i++){
+            String text = page.locator(brandResultsLocators.getFilteredResultsText()).nth(i).innerText().trim();
             logger.info(text);
             filteredResults.add(i, text);
         }
@@ -39,45 +40,45 @@ public class BrandResultsPage {
     }
     public void clickSortDropDown(){
         logger.info("CLicking on sort drill down");
-        page.locator(BrandResultsLocators.sortDropDown).click();
+        page.locator(brandResultsLocators.getSortDropDown()).click();
     }
 
     public void sortByFeatured(){
         clickSortDropDown();
         logger.info("Sort by featured");
-        page.locator(BrandResultsLocators.sortByFeatured).click();
+        page.locator(brandResultsLocators.getSortByFeatured()).click();
         page.waitForLoadState(LoadState.DOMCONTENTLOADED);
     }
     public void sortByPriceLowToHigh(){
         clickSortDropDown();
         logger.info("Sort by prices low to high");
-        page.locator(BrandResultsLocators.sortByPriceLowToHigh).click();
+        page.locator(brandResultsLocators.getSortByPriceLowToHigh()).click();
         page.waitForLoadState(LoadState.DOMCONTENTLOADED);
     }
     public void sortByPriceHighToLow(){
         clickSortDropDown();
         logger.info("Sort by prices high to low");
-        page.locator(BrandResultsLocators.sortByPriceHighToLow).click();
+        page.locator(brandResultsLocators.getSortByPriceHighToLow()).click();
         page.waitForLoadState(LoadState.DOMCONTENTLOADED);
     }
     public void sortByCustomerReviews(){
         clickSortDropDown();
         logger.info("Sort by reviews");
-        page.locator(BrandResultsLocators.sortByReviews).click();
+        page.locator(brandResultsLocators.getSortByReviews()).click();
         page.waitForLoadState(LoadState.DOMCONTENTLOADED);
     }
     public void sortByNewArrivals(){
         clickSortDropDown();
         logger.info("Sort by new arrivals");
-        page.locator(BrandResultsLocators.sortByNewArrivals).click();
+        page.locator(brandResultsLocators.getSortByNewArrivals()).click();
         page.waitForLoadState(LoadState.DOMCONTENTLOADED);
     }
 
     public List<Integer> getPrices(){
         logger.info("Fetching prices");
         List<Integer> prices = new ArrayList<>();
-        for(int i=0;i<page.locator(BrandResultsLocators.prices).count();i++){
-            String text = page.locator(BrandResultsLocators.prices).nth(i).innerText().trim();
+        for(int i=0;i<page.locator(brandResultsLocators.getPrices()).count();i++){
+            String text = page.locator(brandResultsLocators.getPrices()).nth(i).innerText().trim();
             prices.add(i, Util.parseStringToInt(text));
             logger.info(text);
         }
