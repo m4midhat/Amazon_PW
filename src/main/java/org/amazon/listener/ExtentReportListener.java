@@ -17,11 +17,18 @@ import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 import static org.amazon.factory.PlaywrightFactory.takeScreenshot;
+
+/**
+ * The type Extent report listener.
+ */
 public class ExtentReportListener  implements ITestListener {
     private static final String OUTPUT_FOLDER = "./TestReport/";
     private static final String FILE_NAME = "TestExecutionReport.html";
 
     private static final ExtentReports extent = init();
+    /**
+     * The constant test.
+     */
     public static ThreadLocal<ExtentTest> test = new ThreadLocal<>();
     private static ExtentReports extentReports;
 

@@ -14,9 +14,16 @@ public class BrandResultsLocators {
     private String sortByReviews = "//a[@id='s-result-sort-select_3']";
     private String sortByNewArrivals = "//a[@id='s-result-sort-select_4']";
     private String prices = "span.a-price-whole";
+    private String itemDescription = "a.a-link-normal.s-underline-text.s-underline-link-text.s-link-style.a-text-normal span.a-size-base-plus.a-color-base.a-text-normal";
+
 
     public void logInfo(String elementSelector){
         logger.info("Accessing the elementSelector via locator : " + elementSelector);
+    }
+
+    public String getItemDescription() {
+        logInfo(itemDescription);
+        return itemDescription;
     }
     public String getSamsungOption() {
         logInfo(samsungOption);

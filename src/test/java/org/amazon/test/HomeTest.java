@@ -1,7 +1,7 @@
 package org.amazon.test;
 
 import org.amazon.base.BaseTest;
-import org.amazon.constants.HomePageConstants;
+import org.amazon.constants.HomeConstants;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -12,13 +12,13 @@ public class HomeTest extends BaseTest {
     @Test (description = "Verification of page URL", priority = 0)
     public void verifyURL(){
         String originalURL = getCurrentURL();
-        Assert.assertEquals(originalURL, HomePageConstants.url);
+        Assert.assertEquals(originalURL, HomeConstants.url);
     }
 
     @Test (description = "Verification of page title", priority = 1)
     public void verifyTitle(){
         String originalTitle = getCurrentTitle();
-        Assert.assertEquals(originalTitle, HomePageConstants.homePageTitle);
+        Assert.assertEquals(originalTitle, HomeConstants.homePageTitle);
     }
 
     @Test (description = "Verification of search drop down values", priority = 2)
@@ -73,7 +73,7 @@ public class HomeTest extends BaseTest {
             Watches
         * */
         //Assert.assertEquals(searchValues.size(),HomePageConstants.searchOptionCount);
-        Assert.assertTrue(searchValues.size() > HomePageConstants.searchOptionCount);
+        Assert.assertTrue(searchValues.size() > HomeConstants.searchOptionCount);
     }
 
     @Test (description = "Navigation to Television section", priority = 3)

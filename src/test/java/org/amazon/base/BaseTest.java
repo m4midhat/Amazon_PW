@@ -4,6 +4,7 @@ import com.microsoft.playwright.Page;
 import org.amazon.factory.PlaywrightFactory;
 import org.amazon.page.HomePage;
 import org.amazon.page.BrandResultsPage;
+import org.amazon.page.ItemDetailsPage;
 import org.amazon.page.TVCategoryPage;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
@@ -20,6 +21,7 @@ public class BaseTest {
     protected static HomePage homePage;
     protected static TVCategoryPage tvCategoryPage;
     protected static BrandResultsPage brandResultsPage;
+    protected static ItemDetailsPage itemDetailsPage;
 
     @BeforeSuite
     public void setUp() throws IOException {
