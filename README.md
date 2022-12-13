@@ -43,5 +43,5 @@ All the test cases classes are here
 ## Framework Execution
 - Navigate to the project directory
 - Open the Runner folders
-- Execute the testng.xml file
+- Execute the testng.xml file via IntelliJ
 - Report will be available under *TestReport/TestExecutionReport.html*
