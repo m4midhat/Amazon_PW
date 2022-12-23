@@ -1,0 +1,2847 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Amazon.in</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Dec 23, 2022 09:17:26 AM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">TVCategoryTest</a><a class="dropdown-item" href="#">ItemDetailPageTest</a><a class="dropdown-item" href="#">Suite:Amazon.in</a><a class="dropdown-item" href="#">HomeTest</a><a class="dropdown-item" href="#">BrandResultTest</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag="HomeTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyURL</p>
+            <p class="text-sm">
+              <span>9:17:42 AM</span> / <span>00:00:00:032</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyURL</h5>
+<span class='badge badge-success'>12.23.2022 9:17:42 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:42 AM</span>
+<span class='badge badge-default'>00:00:00:032</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">HomeTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">Verification of page URL</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:42 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag="HomeTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyTitle</p>
+            <p class="text-sm">
+              <span>9:17:42 AM</span> / <span>00:00:00:063</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyTitle</h5>
+<span class='badge badge-success'>12.23.2022 9:17:42 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:42 AM</span>
+<span class='badge badge-default'>00:00:00:063</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">HomeTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">Verification of page title</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:42 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag="HomeTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifySearchDropDownValues</p>
+            <p class="text-sm">
+              <span>9:17:42 AM</span> / <span>00:00:00:145</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifySearchDropDownValues</h5>
+<span class='badge badge-success'>12.23.2022 9:17:42 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:42 AM</span>
+<span class='badge badge-default'>00:00:00:145</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">HomeTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">Verification of search drop down values</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:42 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag="HomeTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyScrollToTV</p>
+            <p class="text-sm">
+              <span>9:17:42 AM</span> / <span>00:00:01:929</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyScrollToTV</h5>
+<span class='badge badge-success'>12.23.2022 9:17:42 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:44 AM</span>
+<span class='badge badge-default'>00:00:01:929</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">HomeTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">Navigation to Television section</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:44 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag="TVCategoryTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyTVCategoryURL</p>
+            <p class="text-sm">
+              <span>9:17:44 AM</span> / <span>00:00:02:548</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyTVCategoryURL</h5>
+<span class='badge badge-success'>12.23.2022 9:17:44 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:46 AM</span>
+<span class='badge badge-default'>00:00:02:548</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TVCategoryTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">TV Category URL verification</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:46 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag="TVCategoryTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyTVCategoryTitle</p>
+            <p class="text-sm">
+              <span>9:17:46 AM</span> / <span>00:00:01:823</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyTVCategoryTitle</h5>
+<span class='badge badge-success'>12.23.2022 9:17:46 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:48 AM</span>
+<span class='badge badge-default'>00:00:01:823</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TVCategoryTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">TV Category title</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:48 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag="TVCategoryTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifySubOptionsCountTV</p>
+            <p class="text-sm">
+              <span>9:17:48 AM</span> / <span>00:00:00:309</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifySubOptionsCountTV</h5>
+<span class='badge badge-success'>12.23.2022 9:17:48 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-default'>00:00:00:309</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TVCategoryTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">Verify the total options after selecting TV is 10</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:49 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag="TVCategoryTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifySubOptionsTV1</p>
+            <p class="text-sm">
+              <span>9:17:49 AM</span> / <span>00:00:00:197</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifySubOptionsTV1</h5>
+<span class='badge badge-success'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-default'>00:00:00:197</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TVCategoryTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">Verify first sub-option value</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:49 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag="TVCategoryTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifySubOptionsTV2</p>
+            <p class="text-sm">
+              <span>9:17:49 AM</span> / <span>00:00:00:115</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifySubOptionsTV2</h5>
+<span class='badge badge-success'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-default'>00:00:00:115</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TVCategoryTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">Verify second sub-option value</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:49 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author=""
+          tag="TVCategoryTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifySubOptionsTV3</p>
+            <p class="text-sm">
+              <span>9:17:49 AM</span> / <span>00:00:00:018</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifySubOptionsTV3</h5>
+<span class='badge badge-success'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-default'>00:00:00:018</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TVCategoryTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">Verify third sub-option value</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:49 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author=""
+          tag="TVCategoryTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifySubOptionsTV4</p>
+            <p class="text-sm">
+              <span>9:17:49 AM</span> / <span>00:00:00:017</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifySubOptionsTV4</h5>
+<span class='badge badge-success'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-default'>00:00:00:017</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TVCategoryTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">Verify fourth sub-option value</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:49 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="12"
+          author=""
+          tag="TVCategoryTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyResolutionHeaderAvailability</p>
+            <p class="text-sm">
+              <span>9:17:49 AM</span> / <span>00:00:00:010</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyResolutionHeaderAvailability</h5>
+<span class='badge badge-success'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-default'>00:00:00:010</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TVCategoryTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">Verifying the resolution</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:49 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="13"
+          author=""
+          tag="TVCategoryTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyAvailabilityCheck_8kResolution</p>
+            <p class="text-sm">
+              <span>9:17:49 AM</span> / <span>00:00:00:010</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyAvailabilityCheck_8kResolution</h5>
+<span class='badge badge-success'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-default'>00:00:00:010</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TVCategoryTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">Verification of 8k resolution visibility under resolution header</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:49 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="14"
+          author=""
+          tag="TVCategoryTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyAvailabilityCheck_4kResolution</p>
+            <p class="text-sm">
+              <span>9:17:49 AM</span> / <span>00:00:00:006</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyAvailabilityCheck_4kResolution</h5>
+<span class='badge badge-success'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-default'>00:00:00:006</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TVCategoryTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">Verification of 4k resolution visibility under resolution header</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:49 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="15"
+          author=""
+          tag="TVCategoryTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyAvailabilityCheck_1080pResolution</p>
+            <p class="text-sm">
+              <span>9:17:49 AM</span> / <span>00:00:00:008</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyAvailabilityCheck_1080pResolution</h5>
+<span class='badge badge-success'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-default'>00:00:00:008</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TVCategoryTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">Verification of 1080p resolution visibility under resolution header</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:49 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="16"
+          author=""
+          tag="TVCategoryTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyAvailabilityCheck_768pResolution</p>
+            <p class="text-sm">
+              <span>9:17:49 AM</span> / <span>00:00:00:005</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyAvailabilityCheck_768pResolution</h5>
+<span class='badge badge-success'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-default'>00:00:00:005</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TVCategoryTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">Verification of 768p resolution visibility under resolution header</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:49 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="17"
+          author=""
+          tag="TVCategoryTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyAvailabilityCheck_720pResolution</p>
+            <p class="text-sm">
+              <span>9:17:49 AM</span> / <span>00:00:00:013</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyAvailabilityCheck_720pResolution</h5>
+<span class='badge badge-success'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-default'>00:00:00:013</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TVCategoryTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">Verification of 720p resolution visibility under resolution header</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:49 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="18"
+          author=""
+          tag="TVCategoryTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyAvailabilityCheck_480pResolution</p>
+            <p class="text-sm">
+              <span>9:17:49 AM</span> / <span>00:00:00:017</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyAvailabilityCheck_480pResolution</h5>
+<span class='badge badge-success'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-default'>00:00:00:017</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TVCategoryTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">Verification of 480p resolution visibility under resolution header</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:49 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="19"
+          author=""
+          tag="TVCategoryTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyAvailabilityCheck_Year2022</p>
+            <p class="text-sm">
+              <span>9:17:49 AM</span> / <span>00:00:00:014</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyAvailabilityCheck_Year2022</h5>
+<span class='badge badge-success'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-default'>00:00:00:014</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TVCategoryTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">Verification of year 2022 visibility</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:49 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="20"
+          author=""
+          tag="TVCategoryTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyAvailabilityCheck_Year2021</p>
+            <p class="text-sm">
+              <span>9:17:49 AM</span> / <span>00:00:00:007</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyAvailabilityCheck_Year2021</h5>
+<span class='badge badge-success'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-default'>00:00:00:007</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TVCategoryTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">Verification of year 2021 visibility</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:49 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="21"
+          author=""
+          tag="TVCategoryTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyAvailabilityCheck_Year2020</p>
+            <p class="text-sm">
+              <span>9:17:49 AM</span> / <span>00:00:00:016</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyAvailabilityCheck_Year2020</h5>
+<span class='badge badge-success'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-default'>00:00:00:016</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TVCategoryTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">Verification of year 2020 visibility</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:49 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="22"
+          author=""
+          tag="TVCategoryTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyAvailabilityCheck_Year2019</p>
+            <p class="text-sm">
+              <span>9:17:49 AM</span> / <span>00:00:00:012</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyAvailabilityCheck_Year2019</h5>
+<span class='badge badge-success'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-default'>00:00:00:012</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TVCategoryTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">Verification of year 2019 visibility</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:49 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="23"
+          author=""
+          tag="TVCategoryTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyAvailabilityCheck_Year2018</p>
+            <p class="text-sm">
+              <span>9:17:49 AM</span> / <span>00:00:00:012</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyAvailabilityCheck_Year2018</h5>
+<span class='badge badge-success'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-default'>00:00:00:012</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TVCategoryTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">Verification of year 2018 visibility</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:49 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="24"
+          author=""
+          tag="TVCategoryTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyAvailabilityCheck_Year2017</p>
+            <p class="text-sm">
+              <span>9:17:49 AM</span> / <span>00:00:00:071</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyAvailabilityCheck_Year2017</h5>
+<span class='badge badge-success'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-default'>00:00:00:071</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TVCategoryTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">Verification of year 2017 visibility</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:49 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="25"
+          author=""
+          tag="TVCategoryTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyAvailabilityCheck_Year2016</p>
+            <p class="text-sm">
+              <span>9:17:49 AM</span> / <span>00:00:00:005</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyAvailabilityCheck_Year2016</h5>
+<span class='badge badge-success'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-default'>00:00:00:005</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TVCategoryTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">Verification of year 2016 visibility</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:49 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="26"
+          author=""
+          tag="TVCategoryTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyAvailabilityCheck_SmartTVPlatform</p>
+            <p class="text-sm">
+              <span>9:17:49 AM</span> / <span>00:00:00:010</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyAvailabilityCheck_SmartTVPlatform</h5>
+<span class='badge badge-success'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-default'>00:00:00:010</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=26</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TVCategoryTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">Availability check of heading Smart TV Platform</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:49 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="27"
+          author=""
+          tag="TVCategoryTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyAvailabilityCheck_PlatformAndroid</p>
+            <p class="text-sm">
+              <span>9:17:49 AM</span> / <span>00:00:00:007</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyAvailabilityCheck_PlatformAndroid</h5>
+<span class='badge badge-success'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-default'>00:00:00:007</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=27</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TVCategoryTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">Availability check of platform Android</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:49 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="28"
+          author=""
+          tag="TVCategoryTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyAvailabilityCheck_PlatformFireOS</p>
+            <p class="text-sm">
+              <span>9:17:49 AM</span> / <span>00:00:00:012</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyAvailabilityCheck_PlatformFireOS</h5>
+<span class='badge badge-success'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-default'>00:00:00:012</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=28</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TVCategoryTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">Availability check of platform FireOS</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:49 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="29"
+          author=""
+          tag="TVCategoryTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyAvailabilityCheck_PlatformHomeOS</p>
+            <p class="text-sm">
+              <span>9:17:49 AM</span> / <span>00:00:00:010</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyAvailabilityCheck_PlatformHomeOS</h5>
+<span class='badge badge-success'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-default'>00:00:00:010</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=29</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TVCategoryTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">Availability check of platform Android</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:49 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="30"
+          author=""
+          tag="TVCategoryTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyAvailabilityCheck_PlatformTizen</p>
+            <p class="text-sm">
+              <span>9:17:49 AM</span> / <span>00:00:00:022</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyAvailabilityCheck_PlatformTizen</h5>
+<span class='badge badge-success'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-default'>00:00:00:022</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=30</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TVCategoryTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">Availability check of platform Android</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:49 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="31"
+          author=""
+          tag="TVCategoryTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyAvailabilityCheck_PlatformWebOS</p>
+            <p class="text-sm">
+              <span>9:17:49 AM</span> / <span>00:00:00:018</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyAvailabilityCheck_PlatformWebOS</h5>
+<span class='badge badge-success'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-default'>00:00:00:018</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=31</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TVCategoryTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">Availability check of platform WebOS</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:49 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="32"
+          author=""
+          tag="TVCategoryTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyAvailabilityCheckBrandMI</p>
+            <p class="text-sm">
+              <span>9:17:49 AM</span> / <span>00:00:00:007</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyAvailabilityCheckBrandMI</h5>
+<span class='badge badge-success'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-default'>00:00:00:007</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=32</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TVCategoryTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">Availability of brand MI</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:49 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="33"
+          author=""
+          tag="TVCategoryTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyAvailabilityCheckBrandSamsung</p>
+            <p class="text-sm">
+              <span>9:17:49 AM</span> / <span>00:00:00:021</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyAvailabilityCheckBrandSamsung</h5>
+<span class='badge badge-success'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-default'>00:00:00:021</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=33</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TVCategoryTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">Availability of brand Samsung</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:49 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="34"
+          author=""
+          tag="BrandResultTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyIfSamsungCheckBoxIsSelected</p>
+            <p class="text-sm">
+              <span>9:17:49 AM</span> / <span>00:00:04:020</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyIfSamsungCheckBoxIsSelected</h5>
+<span class='badge badge-success'>12.23.2022 9:17:49 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:53 AM</span>
+<span class='badge badge-default'>00:00:04:020</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=34</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">BrandResultTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">Verify if the Samsung checkbox is selected on the details page</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:53 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="35"
+          author=""
+          tag="BrandResultTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyResultsHeaderAvailability</p>
+            <p class="text-sm">
+              <span>9:17:53 AM</span> / <span>00:00:00:010</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyResultsHeaderAvailability</h5>
+<span class='badge badge-success'>12.23.2022 9:17:53 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:53 AM</span>
+<span class='badge badge-default'>00:00:00:010</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=35</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">BrandResultTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">Verify if the results header is available at the top of the report</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:53 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="36"
+          author=""
+          tag="BrandResultTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyFilteredResultsToHaveSelectedBrandName</p>
+            <p class="text-sm">
+              <span>9:17:53 AM</span> / <span>00:00:00:776</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyFilteredResultsToHaveSelectedBrandName</h5>
+<span class='badge badge-success'>12.23.2022 9:17:53 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:54 AM</span>
+<span class='badge badge-default'>00:00:00:776</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=36</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">BrandResultTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">Verify if filtered results contains the selected brand</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:54 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="37"
+          author=""
+          tag="BrandResultTest Suite:Amazon.in"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyHighToLowPriceSorting</p>
+            <p class="text-sm">
+              <span>9:17:54 AM</span> / <span>00:00:02:356</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">verifyHighToLowPriceSorting</h5>
+<span class='badge badge-success'>12.23.2022 9:17:54 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:17:56 AM</span>
+<span class='badge badge-default'>00:00:02:356</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=37</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">BrandResultTest</span>
+<span class="badge badge-pill badge-default">Suite:Amazon.in</span></div>
+<div class="m-t-10 m-l-5">Verify sorting the products by price; high to low</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:17:56 AM</td>
+        <td>
+          Here is the screenshot for your reference.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:17:59 AM</td>
+        <td>
+          <textarea readonly class="code-block">java.lang.NumberFormatException: For input string: "196790
+."
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:549)
+	at org.amazon.utility.Util.parseStringToInt(Util.java:19)
+	at org.amazon.page.BrandResultsPage.getPrices(BrandResultsPage.java:155)
+	at org.amazon.test.BrandResultTest.verifyHighToLowPriceSorting(BrandResultTest.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+</textarea>
+          
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../screenshot/1671769076940.png' src="../screenshot/1671769076940.png">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="38"
+          author=""
+          tag="Suite:Amazon.in ItemDetailPageTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyNewTabTitleIsMatchingWithItemDescription</p>
+            <p class="text-sm">
+              <span>9:17:59 AM</span> / <span>00:00:02:453</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyNewTabTitleIsMatchingWithItemDescription</h5>
+<span class='badge badge-success'>12.23.2022 9:17:59 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:18:01 AM</span>
+<span class='badge badge-default'>00:00:02:453</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=38</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Suite:Amazon.in</span>
+<span class="badge badge-pill badge-default">ItemDetailPageTest</span></div>
+<div class="m-t-10 m-l-5">Verify if the title of the newly opened tab is matching with the item description clicked on the previous page</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:18:01 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="39"
+          author=""
+          tag="Suite:Amazon.in ItemDetailPageTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyBulletsPointsOfAboutThisItem</p>
+            <p class="text-sm">
+              <span>9:18:01 AM</span> / <span>00:00:00:196</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">verifyBulletsPointsOfAboutThisItem</h5>
+<span class='badge badge-success'>12.23.2022 9:18:01 AM</span>
+<span class='badge badge-danger'>12.23.2022 9:18:02 AM</span>
+<span class='badge badge-default'>00:00:00:196</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=39</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Suite:Amazon.in</span>
+<span class="badge badge-pill badge-default">ItemDetailPageTest</span></div>
+<div class="m-t-10 m-l-5">Verify the bullet points regarding about the item</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:18:02 AM</td>
+        <td>
+          Here is the screenshot for your reference.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:18:03 AM</td>
+        <td>
+          <textarea readonly class="code-block">java.lang.AssertionError: did not expect [0] but found [0]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failEquals(Assert.java:1417)
+	at org.testng.Assert.assertNotEqualsImpl(Assert.java:156)
+	at org.testng.Assert.assertNotEquals(Assert.java:2033)
+	at org.testng.Assert.assertNotEquals(Assert.java:2055)
+	at org.amazon.test.ItemDetailPageTest.verifyBulletsPointsOfAboutThisItem(ItemDetailPageTest.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+</textarea>
+          
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../screenshot/1671769082126.png' src="../screenshot/1671769082126.png">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">java.lang.AssertionError</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.AssertionError</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:18:01 AM</td>
+<td>
+<a href="#" class="linked" test-id='39' id='39'>verifyBulletsPointsOfAboutThisItem</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">java.lang.NumberFormatException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.NumberFormatException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:17:54 AM</td>
+<td>
+<a href="#" class="linked" test-id='37' id='37'>verifyHighToLowPriceSorting</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">5</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>29</span>
+</span>
+<p class="name">TVCategoryTest</p>
+<p class="duration text-sm">29 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>TVCategoryTest</h4>
+<span status="pass" class='badge log pass-bg'>29 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:44 AM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>verifyTVCategoryURL</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>verifyTVCategoryTitle</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:48 AM</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>verifySubOptionsCountTV</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>verifySubOptionsTV1</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>verifySubOptionsTV2</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>verifySubOptionsTV3</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>verifySubOptionsTV4</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>verifyResolutionHeaderAvailability</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>verifyAvailabilityCheck_8kResolution</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>verifyAvailabilityCheck_4kResolution</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>verifyAvailabilityCheck_1080pResolution</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>verifyAvailabilityCheck_768pResolution</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>verifyAvailabilityCheck_720pResolution</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>verifyAvailabilityCheck_480pResolution</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>verifyAvailabilityCheck_Year2022</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='20' id='20'>verifyAvailabilityCheck_Year2021</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='21' id='21'>verifyAvailabilityCheck_Year2020</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='22' id='22'>verifyAvailabilityCheck_Year2019</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='23' id='23'>verifyAvailabilityCheck_Year2018</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='24' id='24'>verifyAvailabilityCheck_Year2017</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='25' id='25'>verifyAvailabilityCheck_Year2016</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='26' id='26'>verifyAvailabilityCheck_SmartTVPlatform</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='27' id='27'>verifyAvailabilityCheck_PlatformAndroid</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='28' id='28'>verifyAvailabilityCheck_PlatformFireOS</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='29' id='29'>verifyAvailabilityCheck_PlatformHomeOS</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='30' id='30'>verifyAvailabilityCheck_PlatformTizen</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='31' id='31'>verifyAvailabilityCheck_PlatformWebOS</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='32' id='32'>verifyAvailabilityCheckBrandMI</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='33' id='33'>verifyAvailabilityCheckBrandSamsung</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">ItemDetailPageTest</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>ItemDetailPageTest</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:59 AM</td>
+<td>
+<a href="#" class="linked" test-id='38' id='38'>verifyNewTabTitleIsMatchingWithItemDescription</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:18:01 AM</td>
+<td>
+<a href="#" class="linked" test-id='39' id='39'>verifyBulletsPointsOfAboutThisItem</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>37</span>
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">Suite:Amazon.in</p>
+<p class="duration text-sm">39 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Suite:Amazon.in</h4>
+<span status="pass" class='badge log pass-bg'>37 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:42 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>verifyURL</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:42 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>verifyTitle</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:42 AM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>verifySearchDropDownValues</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:42 AM</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>verifyScrollToTV</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:44 AM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>verifyTVCategoryURL</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>verifyTVCategoryTitle</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:48 AM</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>verifySubOptionsCountTV</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>verifySubOptionsTV1</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>verifySubOptionsTV2</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>verifySubOptionsTV3</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>verifySubOptionsTV4</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>verifyResolutionHeaderAvailability</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>verifyAvailabilityCheck_8kResolution</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>verifyAvailabilityCheck_4kResolution</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>verifyAvailabilityCheck_1080pResolution</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>verifyAvailabilityCheck_768pResolution</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>verifyAvailabilityCheck_720pResolution</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>verifyAvailabilityCheck_480pResolution</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>verifyAvailabilityCheck_Year2022</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='20' id='20'>verifyAvailabilityCheck_Year2021</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='21' id='21'>verifyAvailabilityCheck_Year2020</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='22' id='22'>verifyAvailabilityCheck_Year2019</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='23' id='23'>verifyAvailabilityCheck_Year2018</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='24' id='24'>verifyAvailabilityCheck_Year2017</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='25' id='25'>verifyAvailabilityCheck_Year2016</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='26' id='26'>verifyAvailabilityCheck_SmartTVPlatform</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='27' id='27'>verifyAvailabilityCheck_PlatformAndroid</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='28' id='28'>verifyAvailabilityCheck_PlatformFireOS</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='29' id='29'>verifyAvailabilityCheck_PlatformHomeOS</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='30' id='30'>verifyAvailabilityCheck_PlatformTizen</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='31' id='31'>verifyAvailabilityCheck_PlatformWebOS</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='32' id='32'>verifyAvailabilityCheckBrandMI</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='33' id='33'>verifyAvailabilityCheckBrandSamsung</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='34' id='34'>verifyIfSamsungCheckBoxIsSelected</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:53 AM</td>
+<td>
+<a href="#" class="linked" test-id='35' id='35'>verifyResultsHeaderAvailability</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:53 AM</td>
+<td>
+<a href="#" class="linked" test-id='36' id='36'>verifyFilteredResultsToHaveSelectedBrandName</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:17:54 AM</td>
+<td>
+<a href="#" class="linked" test-id='37' id='37'>verifyHighToLowPriceSorting</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:59 AM</td>
+<td>
+<a href="#" class="linked" test-id='38' id='38'>verifyNewTabTitleIsMatchingWithItemDescription</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:18:01 AM</td>
+<td>
+<a href="#" class="linked" test-id='39' id='39'>verifyBulletsPointsOfAboutThisItem</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>4</span>
+</span>
+<p class="name">HomeTest</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>HomeTest</h4>
+<span status="pass" class='badge log pass-bg'>4 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:42 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>verifyURL</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:42 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>verifyTitle</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:42 AM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>verifySearchDropDownValues</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:42 AM</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>verifyScrollToTV</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>3</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">BrandResultTest</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>BrandResultTest</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='34' id='34'>verifyIfSamsungCheckBoxIsSelected</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:53 AM</td>
+<td>
+<a href="#" class="linked" test-id='35' id='35'>verifyResultsHeaderAvailability</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:17:53 AM</td>
+<td>
+<a href="#" class="linked" test-id='36' id='36'>verifyFilteredResultsToHaveSelectedBrandName</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:17:54 AM</td>
+<td>
+<a href="#" class="linked" test-id='37' id='37'>verifyHighToLowPriceSorting</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Dec 23, 2022 09:17:26 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Dec 23, 2022 09:18:04 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>37</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>2</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='94%'>
+<b>37</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='5%'><b>2</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='90%'><b>37</b> events passed</small></div>
+<div>
+<small data-tooltip='9%'><b>4</b> events failed,
+<b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"verifyURL":0.032,"verifyTitle":0.063,"verifySearchDropDownValues":0.145,"verifyScrollToTV":1.929,"verifyTVCategoryURL":2.548,"verifyTVCategoryTitle":1.823,"verifySubOptionsCountTV":0.309,"verifySubOptionsTV1":0.197,"verifySubOptionsTV2":0.115,"verifySubOptionsTV3":0.018,"verifySubOptionsTV4":0.017,"verifyResolutionHeaderAvailability":0.01,"verifyAvailabilityCheck_8kResolution":0.01,"verifyAvailabilityCheck_4kResolution":0.006,"verifyAvailabilityCheck_1080pResolution":0.008,"verifyAvailabilityCheck_768pResolution":0.005,"verifyAvailabilityCheck_720pResolution":0.013,"verifyAvailabilityCheck_480pResolution":0.017,"verifyAvailabilityCheck_Year2022":0.014,"verifyAvailabilityCheck_Year2021":0.007,"verifyAvailabilityCheck_Year2020":0.016,"verifyAvailabilityCheck_Year2019":0.012,"verifyAvailabilityCheck_Year2018":0.012,"verifyAvailabilityCheck_Year2017":0.071,"verifyAvailabilityCheck_Year2016":0.005,"verifyAvailabilityCheck_SmartTVPlatform":0.01,"verifyAvailabilityCheck_PlatformAndroid":0.007,"verifyAvailabilityCheck_PlatformFireOS":0.012,"verifyAvailabilityCheck_PlatformHomeOS":0.01,"verifyAvailabilityCheck_PlatformTizen":0.022,"verifyAvailabilityCheck_PlatformWebOS":0.018,"verifyAvailabilityCheckBrandMI":0.007,"verifyAvailabilityCheckBrandSamsung":0.021,"verifyIfSamsungCheckBoxIsSelected":4.02,"verifyResultsHeaderAvailability":0.01,"verifyFilteredResultsToHaveSelectedBrandName":0.776,"verifyHighToLowPriceSorting":2.356,"verifyNewTabTitleIsMatchingWithItemDescription":2.453,"verifyBulletsPointsOfAboutThisItem":0.196
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>TVCategoryTest</td>
+<td>29</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>ItemDetailPageTest</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>50%</td>
+</tr>
+<tr>
+<td>Suite:Amazon.in</td>
+<td>37</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>94.872%</td>
+</tr>
+<tr>
+<td>HomeTest</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>BrandResultTest</td>
+<td>3</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>75%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>System</td>
+<td>Windows</td>
+</tr>
+<tr>
+<td>Author</td>
+<td>Midhat Rosull Chughtai</td>
+</tr>
+<tr>
+<td>Build#</td>
+<td>1.0</td>
+</tr>
+<tr>
+<td>Team</td>
+<td>SDET Automation</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 37,
+failParent: 2,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 37,
+failEvents: 4,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 0
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

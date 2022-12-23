@@ -1,0 +1,5 @@
+org\amazon\base\BaseTest.class
+org\amazon\test\BrandResultTest.class
+org\amazon\test\ItemDetailPageTest.class
+org\amazon\test\HomeTest.class
+org\amazon\test\TVCategoryTest.class

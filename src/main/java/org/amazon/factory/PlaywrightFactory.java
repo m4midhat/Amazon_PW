@@ -17,7 +17,6 @@ public class PlaywrightFactory {
     private static final ThreadLocal<BrowserContext> browserContextThreadLocal = new ThreadLocal<>();
     private static final ThreadLocal<Page> pageThreadLocal = new ThreadLocal<>();
     Properties properties;
-    private static final String screenshotFolder= "../screenshot/";
 
     private static Playwright getPlaywright(){
         return playwrightThreadLocal.get();
@@ -31,7 +30,7 @@ public class PlaywrightFactory {
         return browserContextThreadLocal.get();
     }
 
-    private static Page getPage(){
+    public static Page getPage(){
         return pageThreadLocal.get();
     }
 
@@ -80,24 +79,7 @@ public class PlaywrightFactory {
 
     }
 
-    public Properties init_prop() throws IOException {
-        FileInputStream inputStream = new FileInputStream("./src/main/resources/config/config.properties");
-        properties = new Properties();
-        properties.load(inputStream);
 
-        return properties;
-    }
-
-    public static String takeScreenshot() {
-        String filename = System.currentTimeMillis() + ".png";
-        String path = System.getProperty("user.dir") + "/screenshot/" +filename;
-        String screenshotFile = screenshotFolder+filename;
-
-        getPage().screenshot(new Page.ScreenshotOptions()
-                .setPath(Paths.get(path))
-                .setFullPage(true));
-        return screenshotFile;
-    }
 
     public void closePlaywright(){
 

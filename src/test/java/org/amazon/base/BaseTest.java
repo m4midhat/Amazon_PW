@@ -6,6 +6,7 @@ import org.amazon.page.HomePage;
 import org.amazon.page.BrandResultsPage;
 import org.amazon.page.ItemDetailsPage;
 import org.amazon.page.TVCategoryPage;
+import org.amazon.utility.Util;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.log4testng.Logger;
@@ -15,6 +16,7 @@ import java.util.Properties;
 
 public class BaseTest {
     private final Logger logger = Logger.getLogger(BaseTest.class);
+    private Util util;
     public static PlaywrightFactory pf;
     public static Page page;
     protected Properties properties;
@@ -27,7 +29,8 @@ public class BaseTest {
     public void setUp() throws IOException {
         logger.info("Initializing Playwright");
         pf=new PlaywrightFactory();
-        properties = pf.init_prop();
+        util=new Util();
+        properties = util.init_prop();
         page = pf.initBrowser(properties);
         homePage = new HomePage(page);
     }

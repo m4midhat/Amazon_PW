@@ -6,11 +6,13 @@ import org.amazon.constants.TimeOuts;
 import org.amazon.page.ItemDetailsPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import org.testng.log4testng.Logger;
 
 import java.util.List;
 
 public class ItemDetailPageTest extends BaseTest {
 
+    Logger logger = Logger.getLogger(ItemDetailPageTest.class);
     @Test (description = "Verify if the title of the newly opened tab is matching with the item description clicked on the previous page")
     public void verifyNewTabTitleIsMatchingWithItemDescription(){
         //itemDetailsPage = brandResultsPage.selectNthItem(2);
@@ -26,7 +28,7 @@ public class ItemDetailPageTest extends BaseTest {
     public void verifyBulletsPointsOfAboutThisItem(){
         List<String> bullets = itemDetailsPage.aboutThisItem();
         Assert.assertNotEquals(bullets.size(),0);
-        System.out.println("Details about the selected item : ");
+        logger.info("Details about the selected item : ");
         bullets.forEach(System.out::println);
     }
 }

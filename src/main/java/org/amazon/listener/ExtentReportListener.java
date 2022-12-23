@@ -7,6 +7,7 @@ import java.nio.file.Paths;
 import java.util.Calendar;
 import java.util.Date;
 
+import org.amazon.utility.Util;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -16,7 +17,7 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
-import static org.amazon.factory.PlaywrightFactory.takeScreenshot;
+import static org.amazon.utility.Util.takeScreenshot;
 
 /**
  * The type Extent report listener.
@@ -25,6 +26,7 @@ public class ExtentReportListener  implements ITestListener {
     private static final String OUTPUT_FOLDER = "./TestReport/";
     private static final String FILE_NAME = "TestExecutionReport.html";
 
+    private static Util util;
     private static final ExtentReports extent = init();
     /**
      * The constant test.
@@ -35,6 +37,7 @@ public class ExtentReportListener  implements ITestListener {
 
     private static ExtentReports init() {
 
+        util = new Util();
         Path path = Paths.get(OUTPUT_FOLDER);
         // if directory exists?
         if (!Files.exists(path)) {

@@ -1,0 +1,1209 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Command_line_suite" class="navigator-link">
+              <span class="suite-name border-failed">Command line suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Command_line_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Command_line_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Command_line_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Command_line_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Command_line_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Command_line_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Command_line_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">39 methods, 6 failed,   33 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods failed suite-Command_line_suite"> (hide)</a> <!-- hide-methods failed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods failed suite-Command_line_suite"> (show)</a> <!-- show-methods failed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Command_line_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.ItemDetailPageTest" class="method navigator-link" hash-for-method="verifyBulletsPointsOfAboutThisItem">verifyBulletsPointsOfAboutThisItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.BrandResultTest" class="method navigator-link" hash-for-method="verifyFilteredResultsToHaveSelectedBrandName">verifyFilteredResultsToHaveSelectedBrandName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.BrandResultTest" class="method navigator-link" hash-for-method="verifyHighToLowPriceSorting">verifyHighToLowPriceSorting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.BrandResultTest" class="method navigator-link" hash-for-method="verifyIfSamsungCheckBoxIsSelected">verifyIfSamsungCheckBoxIsSelected</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.ItemDetailPageTest" class="method navigator-link" hash-for-method="verifyNewTabTitleIsMatchingWithItemDescription">verifyNewTabTitleIsMatchingWithItemDescription</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.BrandResultTest" class="method navigator-link" hash-for-method="verifyResultsHeaderAvailability">verifyResultsHeaderAvailability</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Command_line_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods passed suite-Command_line_suite"> (hide)</a> <!-- hide-methods passed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Command_line_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.TVCategoryTest" class="method navigator-link" hash-for-method="verifyAvailabilityCheckBrandMI">verifyAvailabilityCheckBrandMI</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.TVCategoryTest" class="method navigator-link" hash-for-method="verifyAvailabilityCheckBrandSamsung">verifyAvailabilityCheckBrandSamsung</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.TVCategoryTest" class="method navigator-link" hash-for-method="verifyAvailabilityCheck_1080pResolution">verifyAvailabilityCheck_1080pResolution</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.TVCategoryTest" class="method navigator-link" hash-for-method="verifyAvailabilityCheck_480pResolution">verifyAvailabilityCheck_480pResolution</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.TVCategoryTest" class="method navigator-link" hash-for-method="verifyAvailabilityCheck_4kResolution">verifyAvailabilityCheck_4kResolution</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.TVCategoryTest" class="method navigator-link" hash-for-method="verifyAvailabilityCheck_720pResolution">verifyAvailabilityCheck_720pResolution</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.TVCategoryTest" class="method navigator-link" hash-for-method="verifyAvailabilityCheck_768pResolution">verifyAvailabilityCheck_768pResolution</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.TVCategoryTest" class="method navigator-link" hash-for-method="verifyAvailabilityCheck_8kResolution">verifyAvailabilityCheck_8kResolution</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.TVCategoryTest" class="method navigator-link" hash-for-method="verifyAvailabilityCheck_PlatformAndroid">verifyAvailabilityCheck_PlatformAndroid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.TVCategoryTest" class="method navigator-link" hash-for-method="verifyAvailabilityCheck_PlatformFireOS">verifyAvailabilityCheck_PlatformFireOS</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.TVCategoryTest" class="method navigator-link" hash-for-method="verifyAvailabilityCheck_PlatformHomeOS">verifyAvailabilityCheck_PlatformHomeOS</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.TVCategoryTest" class="method navigator-link" hash-for-method="verifyAvailabilityCheck_PlatformTizen">verifyAvailabilityCheck_PlatformTizen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.TVCategoryTest" class="method navigator-link" hash-for-method="verifyAvailabilityCheck_PlatformWebOS">verifyAvailabilityCheck_PlatformWebOS</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.TVCategoryTest" class="method navigator-link" hash-for-method="verifyAvailabilityCheck_SmartTVPlatform">verifyAvailabilityCheck_SmartTVPlatform</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.TVCategoryTest" class="method navigator-link" hash-for-method="verifyAvailabilityCheck_Year2016">verifyAvailabilityCheck_Year2016</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.TVCategoryTest" class="method navigator-link" hash-for-method="verifyAvailabilityCheck_Year2017">verifyAvailabilityCheck_Year2017</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.TVCategoryTest" class="method navigator-link" hash-for-method="verifyAvailabilityCheck_Year2018">verifyAvailabilityCheck_Year2018</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.TVCategoryTest" class="method navigator-link" hash-for-method="verifyAvailabilityCheck_Year2019">verifyAvailabilityCheck_Year2019</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.TVCategoryTest" class="method navigator-link" hash-for-method="verifyAvailabilityCheck_Year2020">verifyAvailabilityCheck_Year2020</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.TVCategoryTest" class="method navigator-link" hash-for-method="verifyAvailabilityCheck_Year2021">verifyAvailabilityCheck_Year2021</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.TVCategoryTest" class="method navigator-link" hash-for-method="verifyAvailabilityCheck_Year2022">verifyAvailabilityCheck_Year2022</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.TVCategoryTest" class="method navigator-link" hash-for-method="verifyResolutionHeaderAvailability">verifyResolutionHeaderAvailability</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.HomeTest" class="method navigator-link" hash-for-method="verifyScrollToTV">verifyScrollToTV</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.HomeTest" class="method navigator-link" hash-for-method="verifySearchDropDownValues">verifySearchDropDownValues</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.TVCategoryTest" class="method navigator-link" hash-for-method="verifySubOptionsCountTV">verifySubOptionsCountTV</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.TVCategoryTest" class="method navigator-link" hash-for-method="verifySubOptionsTV1">verifySubOptionsTV1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.TVCategoryTest" class="method navigator-link" hash-for-method="verifySubOptionsTV2">verifySubOptionsTV2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.TVCategoryTest" class="method navigator-link" hash-for-method="verifySubOptionsTV3">verifySubOptionsTV3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.TVCategoryTest" class="method navigator-link" hash-for-method="verifySubOptionsTV4">verifySubOptionsTV4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.TVCategoryTest" class="method navigator-link" hash-for-method="verifyTVCategoryTitle">verifyTVCategoryTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.TVCategoryTest" class="method navigator-link" hash-for-method="verifyTVCategoryURL">verifyTVCategoryURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.HomeTest" class="method navigator-link" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.amazon.test.HomeTest" class="method navigator-link" hash-for-method="verifyURL">verifyURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Command_line_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">org.amazon.test.BrandResultTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFilteredResultsToHaveSelectedBrandName">
+                  </a> <!-- verifyFilteredResultsToHaveSelectedBrandName -->
+                  <span class="method-name">verifyFilteredResultsToHaveSelectedBrandName</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.amazon.page.BrandResultsPage.getFilteredResultsText()&quot; because &quot;org.amazon.test.BrandResultTest.brandResultsPage&quot; is null
+	at org.amazon.test.BrandResultTest.verifyFilteredResultsToHaveSelectedBrandName(BrandResultTest.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify if filtered results contains the selected brand)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHighToLowPriceSorting">
+                  </a> <!-- verifyHighToLowPriceSorting -->
+                  <span class="method-name">verifyHighToLowPriceSorting</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.amazon.page.BrandResultsPage.sortByPriceHighToLow()&quot; because &quot;org.amazon.test.BrandResultTest.brandResultsPage&quot; is null
+	at org.amazon.test.BrandResultTest.verifyHighToLowPriceSorting(BrandResultTest.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify sorting the products by price; high to low)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIfSamsungCheckBoxIsSelected">
+                  </a> <!-- verifyIfSamsungCheckBoxIsSelected -->
+                  <span class="method-name">verifyIfSamsungCheckBoxIsSelected</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.amazon.page.TVCategoryPage.selectBrandSamsung()&quot; because &quot;org.amazon.test.BrandResultTest.tvCategoryPage&quot; is null
+	at org.amazon.test.BrandResultTest.verifyIfSamsungCheckBoxIsSelected(BrandResultTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify if the Samsung checkbox is selected on the details page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyResultsHeaderAvailability">
+                  </a> <!-- verifyResultsHeaderAvailability -->
+                  <span class="method-name">verifyResultsHeaderAvailability</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.amazon.page.BrandResultsPage.isResultsHeaderAvailable()&quot; because &quot;org.amazon.test.BrandResultTest.brandResultsPage&quot; is null
+	at org.amazon.test.BrandResultTest.verifyResultsHeaderAvailability(BrandResultTest.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify if the results header is available at the top of the report)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">org.amazon.test.ItemDetailPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBulletsPointsOfAboutThisItem">
+                  </a> <!-- verifyBulletsPointsOfAboutThisItem -->
+                  <span class="method-name">verifyBulletsPointsOfAboutThisItem</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.amazon.page.ItemDetailsPage.aboutThisItem()&quot; because &quot;org.amazon.test.ItemDetailPageTest.itemDetailsPage&quot; is null
+	at org.amazon.test.ItemDetailPageTest.verifyBulletsPointsOfAboutThisItem(ItemDetailPageTest.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify the bullet points regarding about the item)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNewTabTitleIsMatchingWithItemDescription">
+                  </a> <!-- verifyNewTabTitleIsMatchingWithItemDescription -->
+                  <span class="method-name">verifyNewTabTitleIsMatchingWithItemDescription</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.amazon.page.BrandResultsPage.openNewTab()&quot; because &quot;org.amazon.test.ItemDetailPageTest.brandResultsPage&quot; is null
+	at org.amazon.test.ItemDetailPageTest.verifyNewTabTitleIsMatchingWithItemDescription(ItemDetailPageTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify if the title of the newly opened tab is matching with the item description clicked on the previous page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.amazon.test.HomeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyScrollToTV">
+                  </a> <!-- verifyScrollToTV -->
+                  <span class="method-name">verifyScrollToTV</span>
+                  <em>
+(Navigation to Television section)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchDropDownValues">
+                  </a> <!-- verifySearchDropDownValues -->
+                  <span class="method-name">verifySearchDropDownValues</span>
+                  <em>
+(Verification of search drop down values)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitle">
+                  </a> <!-- verifyTitle -->
+                  <span class="method-name">verifyTitle</span>
+                  <em>
+(Verification of page title)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyURL">
+                  </a> <!-- verifyURL -->
+                  <span class="method-name">verifyURL</span>
+                  <em>
+(Verification of page URL)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.amazon.test.TVCategoryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAvailabilityCheckBrandMI">
+                  </a> <!-- verifyAvailabilityCheckBrandMI -->
+                  <span class="method-name">verifyAvailabilityCheckBrandMI</span>
+                  <em>
+(Availability of brand MI)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAvailabilityCheckBrandSamsung">
+                  </a> <!-- verifyAvailabilityCheckBrandSamsung -->
+                  <span class="method-name">verifyAvailabilityCheckBrandSamsung</span>
+                  <em>
+(Availability of brand Samsung)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAvailabilityCheck_1080pResolution">
+                  </a> <!-- verifyAvailabilityCheck_1080pResolution -->
+                  <span class="method-name">verifyAvailabilityCheck_1080pResolution</span>
+                  <em>
+(Verification of 1080p resolution visibility under resolution header)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAvailabilityCheck_480pResolution">
+                  </a> <!-- verifyAvailabilityCheck_480pResolution -->
+                  <span class="method-name">verifyAvailabilityCheck_480pResolution</span>
+                  <em>
+(Verification of 480p resolution visibility under resolution header)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAvailabilityCheck_4kResolution">
+                  </a> <!-- verifyAvailabilityCheck_4kResolution -->
+                  <span class="method-name">verifyAvailabilityCheck_4kResolution</span>
+                  <em>
+(Verification of 4k resolution visibility under resolution header)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAvailabilityCheck_720pResolution">
+                  </a> <!-- verifyAvailabilityCheck_720pResolution -->
+                  <span class="method-name">verifyAvailabilityCheck_720pResolution</span>
+                  <em>
+(Verification of 720p resolution visibility under resolution header)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAvailabilityCheck_768pResolution">
+                  </a> <!-- verifyAvailabilityCheck_768pResolution -->
+                  <span class="method-name">verifyAvailabilityCheck_768pResolution</span>
+                  <em>
+(Verification of 768p resolution visibility under resolution header)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAvailabilityCheck_8kResolution">
+                  </a> <!-- verifyAvailabilityCheck_8kResolution -->
+                  <span class="method-name">verifyAvailabilityCheck_8kResolution</span>
+                  <em>
+(Verification of 8k resolution visibility under resolution header)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAvailabilityCheck_PlatformAndroid">
+                  </a> <!-- verifyAvailabilityCheck_PlatformAndroid -->
+                  <span class="method-name">verifyAvailabilityCheck_PlatformAndroid</span>
+                  <em>
+(Availability check of platform Android)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAvailabilityCheck_PlatformFireOS">
+                  </a> <!-- verifyAvailabilityCheck_PlatformFireOS -->
+                  <span class="method-name">verifyAvailabilityCheck_PlatformFireOS</span>
+                  <em>
+(Availability check of platform FireOS)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAvailabilityCheck_PlatformHomeOS">
+                  </a> <!-- verifyAvailabilityCheck_PlatformHomeOS -->
+                  <span class="method-name">verifyAvailabilityCheck_PlatformHomeOS</span>
+                  <em>
+(Availability check of platform Android)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAvailabilityCheck_PlatformTizen">
+                  </a> <!-- verifyAvailabilityCheck_PlatformTizen -->
+                  <span class="method-name">verifyAvailabilityCheck_PlatformTizen</span>
+                  <em>
+(Availability check of platform Android)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAvailabilityCheck_PlatformWebOS">
+                  </a> <!-- verifyAvailabilityCheck_PlatformWebOS -->
+                  <span class="method-name">verifyAvailabilityCheck_PlatformWebOS</span>
+                  <em>
+(Availability check of platform WebOS)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAvailabilityCheck_SmartTVPlatform">
+                  </a> <!-- verifyAvailabilityCheck_SmartTVPlatform -->
+                  <span class="method-name">verifyAvailabilityCheck_SmartTVPlatform</span>
+                  <em>
+(Availability check of heading Smart TV Platform)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAvailabilityCheck_Year2016">
+                  </a> <!-- verifyAvailabilityCheck_Year2016 -->
+                  <span class="method-name">verifyAvailabilityCheck_Year2016</span>
+                  <em>
+(Verification of year 2016 visibility)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAvailabilityCheck_Year2017">
+                  </a> <!-- verifyAvailabilityCheck_Year2017 -->
+                  <span class="method-name">verifyAvailabilityCheck_Year2017</span>
+                  <em>
+(Verification of year 2017 visibility)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAvailabilityCheck_Year2018">
+                  </a> <!-- verifyAvailabilityCheck_Year2018 -->
+                  <span class="method-name">verifyAvailabilityCheck_Year2018</span>
+                  <em>
+(Verification of year 2018 visibility)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAvailabilityCheck_Year2019">
+                  </a> <!-- verifyAvailabilityCheck_Year2019 -->
+                  <span class="method-name">verifyAvailabilityCheck_Year2019</span>
+                  <em>
+(Verification of year 2019 visibility)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAvailabilityCheck_Year2020">
+                  </a> <!-- verifyAvailabilityCheck_Year2020 -->
+                  <span class="method-name">verifyAvailabilityCheck_Year2020</span>
+                  <em>
+(Verification of year 2020 visibility)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAvailabilityCheck_Year2021">
+                  </a> <!-- verifyAvailabilityCheck_Year2021 -->
+                  <span class="method-name">verifyAvailabilityCheck_Year2021</span>
+                  <em>
+(Verification of year 2021 visibility)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAvailabilityCheck_Year2022">
+                  </a> <!-- verifyAvailabilityCheck_Year2022 -->
+                  <span class="method-name">verifyAvailabilityCheck_Year2022</span>
+                  <em>
+(Verification of year 2022 visibility)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyResolutionHeaderAvailability">
+                  </a> <!-- verifyResolutionHeaderAvailability -->
+                  <span class="method-name">verifyResolutionHeaderAvailability</span>
+                  <em>
+(Verifying the resolution)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySubOptionsCountTV">
+                  </a> <!-- verifySubOptionsCountTV -->
+                  <span class="method-name">verifySubOptionsCountTV</span>
+                  <em>
+(Verify the total options after selecting TV is 10)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySubOptionsTV1">
+                  </a> <!-- verifySubOptionsTV1 -->
+                  <span class="method-name">verifySubOptionsTV1</span>
+                  <em>
+(Verify first sub-option value)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySubOptionsTV2">
+                  </a> <!-- verifySubOptionsTV2 -->
+                  <span class="method-name">verifySubOptionsTV2</span>
+                  <em>
+(Verify second sub-option value)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySubOptionsTV3">
+                  </a> <!-- verifySubOptionsTV3 -->
+                  <span class="method-name">verifySubOptionsTV3</span>
+                  <em>
+(Verify third sub-option value)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySubOptionsTV4">
+                  </a> <!-- verifySubOptionsTV4 -->
+                  <span class="method-name">verifySubOptionsTV4</span>
+                  <em>
+(Verify fourth sub-option value)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTVCategoryTitle">
+                  </a> <!-- verifyTVCategoryTitle -->
+                  <span class="method-name">verifyTVCategoryTitle</span>
+                  <em>
+(TV Category title)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTVCategoryURL">
+                  </a> <!-- verifyTVCategoryURL -->
+                  <span class="method-name">verifyTVCategoryURL</span>
+                  <em>
+(TV Category URL verification)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+        </div> <!-- panel Command_line_suite -->
+        <div panel-name="test-xml-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Command line suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Command line test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.amazon.base.BaseTest&quot;/&gt;
+      &lt;class name=&quot;org.amazon.test.BrandResultTest&quot;/&gt;
+      &lt;class name=&quot;org.amazon.test.HomeTest&quot;/&gt;
+      &lt;class name=&quot;org.amazon.test.ItemDetailPageTest&quot;/&gt;
+      &lt;class name=&quot;org.amazon.test.TVCategoryTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- Command line suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Command_line_suite');
+function tableData_Command_line_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(39);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyTVCategoryURL')
+data.setCell(0, 2, 'org.amazon.test.TVCategoryTest')
+data.setCell(0, 3, 2719);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyScrollToTV')
+data.setCell(1, 2, 'org.amazon.test.HomeTest')
+data.setCell(1, 3, 1847);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyTVCategoryTitle')
+data.setCell(2, 2, 'org.amazon.test.TVCategoryTest')
+data.setCell(2, 3, 994);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifySubOptionsCountTV')
+data.setCell(3, 2, 'org.amazon.test.TVCategoryTest')
+data.setCell(3, 3, 119);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifySearchDropDownValues')
+data.setCell(4, 2, 'org.amazon.test.HomeTest')
+data.setCell(4, 3, 109);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifySubOptionsTV1')
+data.setCell(5, 2, 'org.amazon.test.TVCategoryTest')
+data.setCell(5, 3, 90);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifySubOptionsTV2')
+data.setCell(6, 2, 'org.amazon.test.TVCategoryTest')
+data.setCell(6, 3, 39);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifySubOptionsTV3')
+data.setCell(7, 2, 'org.amazon.test.TVCategoryTest')
+data.setCell(7, 3, 31);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifySubOptionsTV4')
+data.setCell(8, 2, 'org.amazon.test.TVCategoryTest')
+data.setCell(8, 3, 19);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyAvailabilityCheck_Year2018')
+data.setCell(9, 2, 'org.amazon.test.TVCategoryTest')
+data.setCell(9, 3, 19);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyResolutionHeaderAvailability')
+data.setCell(10, 2, 'org.amazon.test.TVCategoryTest')
+data.setCell(10, 3, 16);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyAvailabilityCheck_4kResolution')
+data.setCell(11, 2, 'org.amazon.test.TVCategoryTest')
+data.setCell(11, 3, 15);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyAvailabilityCheck_Year2017')
+data.setCell(12, 2, 'org.amazon.test.TVCategoryTest')
+data.setCell(12, 3, 13);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyAvailabilityCheck_SmartTVPlatform')
+data.setCell(13, 2, 'org.amazon.test.TVCategoryTest')
+data.setCell(13, 3, 12);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyAvailabilityCheck_Year2019')
+data.setCell(14, 2, 'org.amazon.test.TVCategoryTest')
+data.setCell(14, 3, 11);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyAvailabilityCheck_8kResolution')
+data.setCell(15, 2, 'org.amazon.test.TVCategoryTest')
+data.setCell(15, 3, 10);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyAvailabilityCheck_Year2021')
+data.setCell(16, 2, 'org.amazon.test.TVCategoryTest')
+data.setCell(16, 3, 9);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyAvailabilityCheck_Year2020')
+data.setCell(17, 2, 'org.amazon.test.TVCategoryTest')
+data.setCell(17, 3, 8);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyTitle')
+data.setCell(18, 2, 'org.amazon.test.HomeTest')
+data.setCell(18, 3, 8);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyAvailabilityCheck_Year2022')
+data.setCell(19, 2, 'org.amazon.test.TVCategoryTest')
+data.setCell(19, 3, 8);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyAvailabilityCheck_PlatformWebOS')
+data.setCell(20, 2, 'org.amazon.test.TVCategoryTest')
+data.setCell(20, 3, 7);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyAvailabilityCheck_PlatformFireOS')
+data.setCell(21, 2, 'org.amazon.test.TVCategoryTest')
+data.setCell(21, 3, 6);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyAvailabilityCheck_768pResolution')
+data.setCell(22, 2, 'org.amazon.test.TVCategoryTest')
+data.setCell(22, 3, 5);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifyIfSamsungCheckBoxIsSelected')
+data.setCell(23, 2, 'org.amazon.test.BrandResultTest')
+data.setCell(23, 3, 5);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifyURL')
+data.setCell(24, 2, 'org.amazon.test.HomeTest')
+data.setCell(24, 3, 4);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verifyAvailabilityCheckBrandMI')
+data.setCell(25, 2, 'org.amazon.test.TVCategoryTest')
+data.setCell(25, 3, 4);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verifyAvailabilityCheck_PlatformAndroid')
+data.setCell(26, 2, 'org.amazon.test.TVCategoryTest')
+data.setCell(26, 3, 4);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'verifyAvailabilityCheck_1080pResolution')
+data.setCell(27, 2, 'org.amazon.test.TVCategoryTest')
+data.setCell(27, 3, 4);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'verifyAvailabilityCheckBrandSamsung')
+data.setCell(28, 2, 'org.amazon.test.TVCategoryTest')
+data.setCell(28, 3, 4);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'verifyAvailabilityCheck_720pResolution')
+data.setCell(29, 2, 'org.amazon.test.TVCategoryTest')
+data.setCell(29, 3, 4);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'verifyAvailabilityCheck_480pResolution')
+data.setCell(30, 2, 'org.amazon.test.TVCategoryTest')
+data.setCell(30, 3, 4);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'verifyAvailabilityCheck_PlatformTizen')
+data.setCell(31, 2, 'org.amazon.test.TVCategoryTest')
+data.setCell(31, 3, 3);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'verifyAvailabilityCheck_Year2016')
+data.setCell(32, 2, 'org.amazon.test.TVCategoryTest')
+data.setCell(32, 3, 3);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'verifyAvailabilityCheck_PlatformHomeOS')
+data.setCell(33, 2, 'org.amazon.test.TVCategoryTest')
+data.setCell(33, 3, 3);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'verifyBulletsPointsOfAboutThisItem')
+data.setCell(34, 2, 'org.amazon.test.ItemDetailPageTest')
+data.setCell(34, 3, 3);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'verifyResultsHeaderAvailability')
+data.setCell(35, 2, 'org.amazon.test.BrandResultTest')
+data.setCell(35, 3, 2);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'verifyFilteredResultsToHaveSelectedBrandName')
+data.setCell(36, 2, 'org.amazon.test.BrandResultTest')
+data.setCell(36, 3, 1);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'verifyHighToLowPriceSorting')
+data.setCell(37, 2, 'org.amazon.test.BrandResultTest')
+data.setCell(37, 3, 1);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'verifyNewTabTitleIsMatchingWithItemDescription')
+data.setCell(38, 2, 'org.amazon.test.ItemDetailPageTest')
+data.setCell(38, 3, 0);
+window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <div id="times-div-Command_line_suite">
+              </div> <!-- times-div-Command_line_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">8 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">org.amazon.test.BrandResultTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">org.amazon.test.HomeTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">org.amazon.test.ItemDetailPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">org.amazon.test.TVCategoryTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.amazon.base.BaseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.amazon.test.BrandResultTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyIfSamsungCheckBoxIsSelected</span>
+                <span class="method-start">10923 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyResultsHeaderAvailability</span>
+                <span class="method-start">10939 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyFilteredResultsToHaveSelectedBrandName</span>
+                <span class="method-start">10943 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyHighToLowPriceSorting</span>
+                <span class="method-start">10946 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.amazon.test.HomeTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyURL</span>
+                <span class="method-start">10949 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyTitle</span>
+                <span class="method-start">10955 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchDropDownValues</span>
+                <span class="method-start">10964 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyScrollToTV</span>
+                <span class="method-start">11074 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.amazon.test.ItemDetailPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyNewTabTitleIsMatchingWithItemDescription</span>
+                <span class="method-start">12924 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyBulletsPointsOfAboutThisItem</span>
+                <span class="method-start">12926 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.amazon.test.TVCategoryTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyTVCategoryURL</span>
+                <span class="method-start">12933 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyTVCategoryTitle</span>
+                <span class="method-start">15653 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySubOptionsCountTV</span>
+                <span class="method-start">16649 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySubOptionsTV1</span>
+                <span class="method-start">16770 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySubOptionsTV2</span>
+                <span class="method-start">16861 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySubOptionsTV3</span>
+                <span class="method-start">16901 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySubOptionsTV4</span>
+                <span class="method-start">16933 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyResolutionHeaderAvailability</span>
+                <span class="method-start">16953 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAvailabilityCheck_8kResolution</span>
+                <span class="method-start">16971 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAvailabilityCheck_4kResolution</span>
+                <span class="method-start">16983 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAvailabilityCheck_1080pResolution</span>
+                <span class="method-start">16999 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAvailabilityCheck_768pResolution</span>
+                <span class="method-start">17004 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAvailabilityCheck_720pResolution</span>
+                <span class="method-start">17011 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAvailabilityCheck_480pResolution</span>
+                <span class="method-start">17017 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAvailabilityCheck_Year2022</span>
+                <span class="method-start">17022 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAvailabilityCheck_Year2021</span>
+                <span class="method-start">17031 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAvailabilityCheck_Year2020</span>
+                <span class="method-start">17041 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAvailabilityCheck_Year2019</span>
+                <span class="method-start">17050 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAvailabilityCheck_Year2018</span>
+                <span class="method-start">17062 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAvailabilityCheck_Year2017</span>
+                <span class="method-start">17082 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAvailabilityCheck_Year2016</span>
+                <span class="method-start">17097 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAvailabilityCheck_SmartTVPlatform</span>
+                <span class="method-start">17102 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAvailabilityCheck_PlatformAndroid</span>
+                <span class="method-start">17115 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAvailabilityCheck_PlatformFireOS</span>
+                <span class="method-start">17120 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAvailabilityCheck_PlatformHomeOS</span>
+                <span class="method-start">17127 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAvailabilityCheck_PlatformTizen</span>
+                <span class="method-start">17132 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAvailabilityCheck_PlatformWebOS</span>
+                <span class="method-start">17136 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAvailabilityCheckBrandMI</span>
+                <span class="method-start">17143 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAvailabilityCheckBrandSamsung</span>
+                <span class="method-start">17148 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.amazon.base.BaseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17271 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

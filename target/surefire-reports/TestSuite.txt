@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 39, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 18.738 sec <<< FAILURE!
+verifyIfSamsungCheckBoxIsSelected(org.amazon.test.BrandResultTest)  Time elapsed: 0.012 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.amazon.page.TVCategoryPage.selectBrandSamsung()" because "org.amazon.test.BrandResultTest.tvCategoryPage" is null
+	at org.amazon.test.BrandResultTest.verifyIfSamsungCheckBoxIsSelected(BrandResultTest.java:15)
+
+verifyResultsHeaderAvailability(org.amazon.test.BrandResultTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.amazon.page.BrandResultsPage.isResultsHeaderAvailable()" because "org.amazon.test.BrandResultTest.brandResultsPage" is null
+	at org.amazon.test.BrandResultTest.verifyResultsHeaderAvailability(BrandResultTest.java:21)
+
+verifyFilteredResultsToHaveSelectedBrandName(org.amazon.test.BrandResultTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.amazon.page.BrandResultsPage.getFilteredResultsText()" because "org.amazon.test.BrandResultTest.brandResultsPage" is null
+	at org.amazon.test.BrandResultTest.verifyFilteredResultsToHaveSelectedBrandName(BrandResultTest.java:26)
+
+verifyHighToLowPriceSorting(org.amazon.test.BrandResultTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.amazon.page.BrandResultsPage.sortByPriceHighToLow()" because "org.amazon.test.BrandResultTest.brandResultsPage" is null
+	at org.amazon.test.BrandResultTest.verifyHighToLowPriceSorting(BrandResultTest.java:34)
+
+verifyNewTabTitleIsMatchingWithItemDescription(org.amazon.test.ItemDetailPageTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.amazon.page.BrandResultsPage.openNewTab()" because "org.amazon.test.ItemDetailPageTest.brandResultsPage" is null
+	at org.amazon.test.ItemDetailPageTest.verifyNewTabTitleIsMatchingWithItemDescription(ItemDetailPageTest.java:17)
+
+verifyBulletsPointsOfAboutThisItem(org.amazon.test.ItemDetailPageTest)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.amazon.page.ItemDetailsPage.aboutThisItem()" because "org.amazon.test.ItemDetailPageTest.itemDetailsPage" is null
+	at org.amazon.test.ItemDetailPageTest.verifyBulletsPointsOfAboutThisItem(ItemDetailPageTest.java:27)
+

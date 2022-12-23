@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="47" passed="33" failed="6" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-12T15:18:38 PKT" name="Command line suite" finished-at="2022-12-12T15:18:44 PKT" duration-ms="6299">
+    <groups>
+    </groups>
+    <test started-at="2022-12-12T15:18:38 PKT" name="Command line test" finished-at="2022-12-12T15:18:44 PKT" duration-ms="6299">
+      <class name="org.amazon.test.TVCategoryTest">
+        <test-method signature="verifyTVCategoryURL()[pri:0, instance:org.amazon.test.TVCategoryTest@41ee392b]" started-at="2022-12-12T15:18:40 PKT" name="verifyTVCategoryURL" description="TV Category URL verification" finished-at="2022-12-12T15:18:43 PKT" duration-ms="2719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTVCategoryURL -->
+        <test-method signature="verifyTVCategoryTitle()[pri:1, instance:org.amazon.test.TVCategoryTest@41ee392b]" started-at="2022-12-12T15:18:43 PKT" name="verifyTVCategoryTitle" description="TV Category title" finished-at="2022-12-12T15:18:44 PKT" duration-ms="994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTVCategoryTitle -->
+        <test-method signature="verifySubOptionsCountTV()[pri:2, instance:org.amazon.test.TVCategoryTest@41ee392b]" started-at="2022-12-12T15:18:44 PKT" name="verifySubOptionsCountTV" description="Verify the total options after selecting TV is 10" finished-at="2022-12-12T15:18:44 PKT" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubOptionsCountTV -->
+        <test-method signature="verifySubOptionsTV1()[pri:3, instance:org.amazon.test.TVCategoryTest@41ee392b]" started-at="2022-12-12T15:18:44 PKT" name="verifySubOptionsTV1" description="Verify first sub-option value" finished-at="2022-12-12T15:18:44 PKT" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubOptionsTV1 -->
+        <test-method signature="verifySubOptionsTV2()[pri:4, instance:org.amazon.test.TVCategoryTest@41ee392b]" started-at="2022-12-12T15:18:44 PKT" name="verifySubOptionsTV2" description="Verify second sub-option value" finished-at="2022-12-12T15:18:44 PKT" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubOptionsTV2 -->
+        <test-method signature="verifySubOptionsTV3()[pri:5, instance:org.amazon.test.TVCategoryTest@41ee392b]" started-at="2022-12-12T15:18:44 PKT" name="verifySubOptionsTV3" description="Verify third sub-option value" finished-at="2022-12-12T15:18:44 PKT" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubOptionsTV3 -->
+        <test-method signature="verifySubOptionsTV4()[pri:6, instance:org.amazon.test.TVCategoryTest@41ee392b]" started-at="2022-12-12T15:18:44 PKT" name="verifySubOptionsTV4" description="Verify fourth sub-option value" finished-at="2022-12-12T15:18:44 PKT" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubOptionsTV4 -->
+        <test-method signature="verifyResolutionHeaderAvailability()[pri:7, instance:org.amazon.test.TVCategoryTest@41ee392b]" started-at="2022-12-12T15:18:44 PKT" name="verifyResolutionHeaderAvailability" description="Verifying the resolution" finished-at="2022-12-12T15:18:44 PKT" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResolutionHeaderAvailability -->
+        <test-method signature="verifyAvailabilityCheck_8kResolution()[pri:8, instance:org.amazon.test.TVCategoryTest@41ee392b]" started-at="2022-12-12T15:18:44 PKT" name="verifyAvailabilityCheck_8kResolution" description="Verification of 8k resolution visibility under resolution header" finished-at="2022-12-12T15:18:44 PKT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAvailabilityCheck_8kResolution -->
+        <test-method signature="verifyAvailabilityCheck_4kResolution()[pri:9, instance:org.amazon.test.TVCategoryTest@41ee392b]" started-at="2022-12-12T15:18:44 PKT" name="verifyAvailabilityCheck_4kResolution" description="Verification of 4k resolution visibility under resolution header" finished-at="2022-12-12T15:18:44 PKT" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAvailabilityCheck_4kResolution -->
+        <test-method signature="verifyAvailabilityCheck_1080pResolution()[pri:10, instance:org.amazon.test.TVCategoryTest@41ee392b]" started-at="2022-12-12T15:18:44 PKT" name="verifyAvailabilityCheck_1080pResolution" description="Verification of 1080p resolution visibility under resolution header" finished-at="2022-12-12T15:18:44 PKT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAvailabilityCheck_1080pResolution -->
+        <test-method signature="verifyAvailabilityCheck_768pResolution()[pri:11, instance:org.amazon.test.TVCategoryTest@41ee392b]" started-at="2022-12-12T15:18:44 PKT" name="verifyAvailabilityCheck_768pResolution" description="Verification of 768p resolution visibility under resolution header" finished-at="2022-12-12T15:18:44 PKT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAvailabilityCheck_768pResolution -->
+        <test-method signature="verifyAvailabilityCheck_720pResolution()[pri:12, instance:org.amazon.test.TVCategoryTest@41ee392b]" started-at="2022-12-12T15:18:44 PKT" name="verifyAvailabilityCheck_720pResolution" description="Verification of 720p resolution visibility under resolution header" finished-at="2022-12-12T15:18:44 PKT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAvailabilityCheck_720pResolution -->
+        <test-method signature="verifyAvailabilityCheck_480pResolution()[pri:13, instance:org.amazon.test.TVCategoryTest@41ee392b]" started-at="2022-12-12T15:18:44 PKT" name="verifyAvailabilityCheck_480pResolution" description="Verification of 480p resolution visibility under resolution header" finished-at="2022-12-12T15:18:44 PKT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAvailabilityCheck_480pResolution -->
+        <test-method signature="verifyAvailabilityCheck_Year2022()[pri:14, instance:org.amazon.test.TVCategoryTest@41ee392b]" started-at="2022-12-12T15:18:44 PKT" name="verifyAvailabilityCheck_Year2022" description="Verification of year 2022 visibility" finished-at="2022-12-12T15:18:44 PKT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAvailabilityCheck_Year2022 -->
+        <test-method signature="verifyAvailabilityCheck_Year2021()[pri:15, instance:org.amazon.test.TVCategoryTest@41ee392b]" started-at="2022-12-12T15:18:44 PKT" name="verifyAvailabilityCheck_Year2021" description="Verification of year 2021 visibility" finished-at="2022-12-12T15:18:44 PKT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAvailabilityCheck_Year2021 -->
+        <test-method signature="verifyAvailabilityCheck_Year2020()[pri:16, instance:org.amazon.test.TVCategoryTest@41ee392b]" started-at="2022-12-12T15:18:44 PKT" name="verifyAvailabilityCheck_Year2020" description="Verification of year 2020 visibility" finished-at="2022-12-12T15:18:44 PKT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAvailabilityCheck_Year2020 -->
+        <test-method signature="verifyAvailabilityCheck_Year2019()[pri:17, instance:org.amazon.test.TVCategoryTest@41ee392b]" started-at="2022-12-12T15:18:44 PKT" name="verifyAvailabilityCheck_Year2019" description="Verification of year 2019 visibility" finished-at="2022-12-12T15:18:44 PKT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAvailabilityCheck_Year2019 -->
+        <test-method signature="verifyAvailabilityCheck_Year2018()[pri:18, instance:org.amazon.test.TVCategoryTest@41ee392b]" started-at="2022-12-12T15:18:44 PKT" name="verifyAvailabilityCheck_Year2018" description="Verification of year 2018 visibility" finished-at="2022-12-12T15:18:44 PKT" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAvailabilityCheck_Year2018 -->
+        <test-method signature="verifyAvailabilityCheck_Year2017()[pri:19, instance:org.amazon.test.TVCategoryTest@41ee392b]" started-at="2022-12-12T15:18:44 PKT" name="verifyAvailabilityCheck_Year2017" description="Verification of year 2017 visibility" finished-at="2022-12-12T15:18:44 PKT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAvailabilityCheck_Year2017 -->
+        <test-method signature="verifyAvailabilityCheck_Year2016()[pri:20, instance:org.amazon.test.TVCategoryTest@41ee392b]" started-at="2022-12-12T15:18:44 PKT" name="verifyAvailabilityCheck_Year2016" description="Verification of year 2016 visibility" finished-at="2022-12-12T15:18:44 PKT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAvailabilityCheck_Year2016 -->
+        <test-method signature="verifyAvailabilityCheck_SmartTVPlatform()[pri:21, instance:org.amazon.test.TVCategoryTest@41ee392b]" started-at="2022-12-12T15:18:44 PKT" name="verifyAvailabilityCheck_SmartTVPlatform" description="Availability check of heading Smart TV Platform" finished-at="2022-12-12T15:18:44 PKT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAvailabilityCheck_SmartTVPlatform -->
+        <test-method signature="verifyAvailabilityCheck_PlatformAndroid()[pri:22, instance:org.amazon.test.TVCategoryTest@41ee392b]" started-at="2022-12-12T15:18:44 PKT" name="verifyAvailabilityCheck_PlatformAndroid" description="Availability check of platform Android" finished-at="2022-12-12T15:18:44 PKT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAvailabilityCheck_PlatformAndroid -->
+        <test-method signature="verifyAvailabilityCheck_PlatformFireOS()[pri:23, instance:org.amazon.test.TVCategoryTest@41ee392b]" started-at="2022-12-12T15:18:44 PKT" name="verifyAvailabilityCheck_PlatformFireOS" description="Availability check of platform FireOS" finished-at="2022-12-12T15:18:44 PKT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAvailabilityCheck_PlatformFireOS -->
+        <test-method signature="verifyAvailabilityCheck_PlatformHomeOS()[pri:24, instance:org.amazon.test.TVCategoryTest@41ee392b]" started-at="2022-12-12T15:18:44 PKT" name="verifyAvailabilityCheck_PlatformHomeOS" description="Availability check of platform Android" finished-at="2022-12-12T15:18:44 PKT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAvailabilityCheck_PlatformHomeOS -->
+        <test-method signature="verifyAvailabilityCheck_PlatformTizen()[pri:25, instance:org.amazon.test.TVCategoryTest@41ee392b]" started-at="2022-12-12T15:18:44 PKT" name="verifyAvailabilityCheck_PlatformTizen" description="Availability check of platform Android" finished-at="2022-12-12T15:18:44 PKT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAvailabilityCheck_PlatformTizen -->
+        <test-method signature="verifyAvailabilityCheck_PlatformWebOS()[pri:26, instance:org.amazon.test.TVCategoryTest@41ee392b]" started-at="2022-12-12T15:18:44 PKT" name="verifyAvailabilityCheck_PlatformWebOS" description="Availability check of platform WebOS" finished-at="2022-12-12T15:18:44 PKT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAvailabilityCheck_PlatformWebOS -->
+        <test-method signature="verifyAvailabilityCheckBrandMI()[pri:27, instance:org.amazon.test.TVCategoryTest@41ee392b]" started-at="2022-12-12T15:18:44 PKT" name="verifyAvailabilityCheckBrandMI" description="Availability of brand MI" finished-at="2022-12-12T15:18:44 PKT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAvailabilityCheckBrandMI -->
+        <test-method signature="verifyAvailabilityCheckBrandSamsung()[pri:28, instance:org.amazon.test.TVCategoryTest@41ee392b]" started-at="2022-12-12T15:18:44 PKT" name="verifyAvailabilityCheckBrandSamsung" description="Availability of brand Samsung" finished-at="2022-12-12T15:18:44 PKT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAvailabilityCheckBrandSamsung -->
+      </class> <!-- org.amazon.test.TVCategoryTest -->
+      <class name="org.amazon.test.ItemDetailPageTest">
+        <test-method signature="verifyNewTabTitleIsMatchingWithItemDescription()[pri:0, instance:org.amazon.test.ItemDetailPageTest@2ea6137]" started-at="2022-12-12T15:18:40 PKT" name="verifyNewTabTitleIsMatchingWithItemDescription" description="Verify if the title of the newly opened tab is matching with the item description clicked on the previous page" finished-at="2022-12-12T15:18:40 PKT" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.amazon.page.BrandResultsPage.openNewTab()" because "org.amazon.test.ItemDetailPageTest.brandResultsPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.amazon.page.BrandResultsPage.openNewTab()" because "org.amazon.test.ItemDetailPageTest.brandResultsPage" is null
+at org.amazon.test.ItemDetailPageTest.verifyNewTabTitleIsMatchingWithItemDescription(ItemDetailPageTest.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewTabTitleIsMatchingWithItemDescription -->
+        <test-method signature="verifyBulletsPointsOfAboutThisItem()[pri:1, instance:org.amazon.test.ItemDetailPageTest@2ea6137]" started-at="2022-12-12T15:18:40 PKT" name="verifyBulletsPointsOfAboutThisItem" description="Verify the bullet points regarding about the item" finished-at="2022-12-12T15:18:40 PKT" duration-ms="3" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.amazon.page.ItemDetailsPage.aboutThisItem()" because "org.amazon.test.ItemDetailPageTest.itemDetailsPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.amazon.page.ItemDetailsPage.aboutThisItem()" because "org.amazon.test.ItemDetailPageTest.itemDetailsPage" is null
+at org.amazon.test.ItemDetailPageTest.verifyBulletsPointsOfAboutThisItem(ItemDetailPageTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBulletsPointsOfAboutThisItem -->
+      </class> <!-- org.amazon.test.ItemDetailPageTest -->
+      <class name="org.amazon.test.BrandResultTest">
+        <test-method signature="verifyIfSamsungCheckBoxIsSelected()[pri:0, instance:org.amazon.test.BrandResultTest@2d2e5f00]" started-at="2022-12-12T15:18:38 PKT" name="verifyIfSamsungCheckBoxIsSelected" description="Verify if the Samsung checkbox is selected on the details page" finished-at="2022-12-12T15:18:38 PKT" duration-ms="5" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.amazon.page.TVCategoryPage.selectBrandSamsung()" because "org.amazon.test.BrandResultTest.tvCategoryPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.amazon.page.TVCategoryPage.selectBrandSamsung()" because "org.amazon.test.BrandResultTest.tvCategoryPage" is null
+at org.amazon.test.BrandResultTest.verifyIfSamsungCheckBoxIsSelected(BrandResultTest.java:15)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIfSamsungCheckBoxIsSelected -->
+        <test-method signature="verifyResultsHeaderAvailability()[pri:1, instance:org.amazon.test.BrandResultTest@2d2e5f00]" started-at="2022-12-12T15:18:38 PKT" name="verifyResultsHeaderAvailability" description="Verify if the results header is available at the top of the report" finished-at="2022-12-12T15:18:38 PKT" duration-ms="2" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.amazon.page.BrandResultsPage.isResultsHeaderAvailable()" because "org.amazon.test.BrandResultTest.brandResultsPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.amazon.page.BrandResultsPage.isResultsHeaderAvailable()" because "org.amazon.test.BrandResultTest.brandResultsPage" is null
+at org.amazon.test.BrandResultTest.verifyResultsHeaderAvailability(BrandResultTest.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResultsHeaderAvailability -->
+        <test-method signature="verifyFilteredResultsToHaveSelectedBrandName()[pri:2, instance:org.amazon.test.BrandResultTest@2d2e5f00]" started-at="2022-12-12T15:18:38 PKT" name="verifyFilteredResultsToHaveSelectedBrandName" description="Verify if filtered results contains the selected brand" finished-at="2022-12-12T15:18:38 PKT" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.amazon.page.BrandResultsPage.getFilteredResultsText()" because "org.amazon.test.BrandResultTest.brandResultsPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.amazon.page.BrandResultsPage.getFilteredResultsText()" because "org.amazon.test.BrandResultTest.brandResultsPage" is null
+at org.amazon.test.BrandResultTest.verifyFilteredResultsToHaveSelectedBrandName(BrandResultTest.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFilteredResultsToHaveSelectedBrandName -->
+        <test-method signature="verifyHighToLowPriceSorting()[pri:3, instance:org.amazon.test.BrandResultTest@2d2e5f00]" started-at="2022-12-12T15:18:38 PKT" name="verifyHighToLowPriceSorting" description="Verify sorting the products by price; high to low" finished-at="2022-12-12T15:18:38 PKT" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.amazon.page.BrandResultsPage.sortByPriceHighToLow()" because "org.amazon.test.BrandResultTest.brandResultsPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.amazon.page.BrandResultsPage.sortByPriceHighToLow()" because "org.amazon.test.BrandResultTest.brandResultsPage" is null
+at org.amazon.test.BrandResultTest.verifyHighToLowPriceSorting(BrandResultTest.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHighToLowPriceSorting -->
+      </class> <!-- org.amazon.test.BrandResultTest -->
+      <class name="org.amazon.test.HomeTest">
+        <test-method signature="verifyURL()[pri:0, instance:org.amazon.test.HomeTest@4c40b76e]" started-at="2022-12-12T15:18:38 PKT" name="verifyURL" description="Verification of page URL" finished-at="2022-12-12T15:18:38 PKT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyURL -->
+        <test-method signature="verifyTitle()[pri:1, instance:org.amazon.test.HomeTest@4c40b76e]" started-at="2022-12-12T15:18:38 PKT" name="verifyTitle" description="Verification of page title" finished-at="2022-12-12T15:18:38 PKT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="verifySearchDropDownValues()[pri:2, instance:org.amazon.test.HomeTest@4c40b76e]" started-at="2022-12-12T15:18:38 PKT" name="verifySearchDropDownValues" description="Verification of search drop down values" finished-at="2022-12-12T15:18:38 PKT" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchDropDownValues -->
+        <test-method signature="verifyScrollToTV()[pri:3, instance:org.amazon.test.HomeTest@4c40b76e]" started-at="2022-12-12T15:18:38 PKT" name="verifyScrollToTV" description="Navigation to Television section" finished-at="2022-12-12T15:18:40 PKT" duration-ms="1847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyScrollToTV -->
+      </class> <!-- org.amazon.test.HomeTest -->
+      <class name="org.amazon.base.BaseTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.amazon.base.BaseTest@770c2e6b]" started-at="2022-12-12T15:18:27 PKT" name="setUp" finished-at="2022-12-12T15:18:38 PKT" duration-ms="10849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.amazon.base.BaseTest@770c2e6b]" started-at="2022-12-12T15:18:45 PKT" name="tearDown" finished-at="2022-12-12T15:18:45 PKT" duration-ms="501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.amazon.base.BaseTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

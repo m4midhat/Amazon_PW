@@ -1,0 +1,6 @@
+#surefire_0
+#Mon Dec 12 15:18:26 PKT 2022
+basedir=C\:\\Users\\mchughtai\\IdeaProjects\\Amazon_PW
+user.dir=C\:\\Users\\mchughtai\\IdeaProjects\\Amazon_PW
+sunfire.suiteXmlFiles=src/main/java/org/amazon/Runner/testng.xml
+localRepository=C\:\\Users\\mchughtai\\.m2\\repository
